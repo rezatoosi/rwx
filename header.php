@@ -12,7 +12,7 @@
 <body class="crumina-grid">
 
   <?php wp_body_open(); ?>
-  
+
 <!-- Preloader -->
 
 <!--<div id="hellopreloader" style="display: block; position: fixed;z-index: 99999;top: 0;left: 0;width: 100%;height: 100%;min-width: 100%;background: #66b5ff url(svg/preload.svg) center center no-repeat;background-size: 41px;opacity: 1;"></div>-->
@@ -22,7 +22,7 @@
 
 <!-- Header -->
 
-<header class="header header--menu-rounded header--blue-lighteen" id="site-header">
+<header class="header header--small-lines header--menu-rounded" id="site-header">
 
 	<div class="header-lines-decoration">
 		<span class="bg-secondary-color"></span>
@@ -37,9 +37,7 @@
 	<div class="container">
 
 		<a href="#" id="top-bar-js" class="top-bar-link">
-			<svg class="utouch-icon utouch-icon-arrow-top">
-				<use xlink:href="#utouch-icon-arrow-top"></use>
-			</svg>
+      <?php itcorp_svg( 'utouch-icon-arrow-top', 'utouch-icon utouch-icon-arrow-top' ); ?>
 		</a>
 		<div class="header-content-wrapper">
 
@@ -248,7 +246,7 @@
 					<li class="menu-item-has-mega-menu menu-item-has-children">
 						<a href="#">Events</a>
 
-						<div class="megamenu" style="background-image: url('img/menu-bg.jpg');">
+						<div class="megamenu" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/menu-bg.jpg');">
 							<div class="megamenu-row">
 
 								<div class="col4">
