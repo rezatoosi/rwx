@@ -20,6 +20,7 @@ add_action( 'after_setup_theme', 'itcorp_theme_support' );
  * Include Required files
  */
 require get_template_directory() . '/inc/template-tags.php';
+require get_template_directory() . '/inc/svg-icons.php';
 
 /**
  * Register and enqueue styles

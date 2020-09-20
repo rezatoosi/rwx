@@ -12,6 +12,7 @@
 <body class="crumina-grid">
 
   <?php wp_body_open(); ?>
+  
 <!-- Preloader -->
 
 <!--<div id="hellopreloader" style="display: block; position: fixed;z-index: 99999;top: 0;left: 0;width: 100%;height: 100%;min-width: 100%;background: #66b5ff url(svg/preload.svg) center center no-repeat;background-size: 41px;opacity: 1;"></div>-->

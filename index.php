@@ -189,12 +189,8 @@
 						</div>
 
 						<a href="#" class="btn-next">
-							<svg class="utouch-icon icon-hover utouch-icon-arrow-right-1">
-								<use xlink:href="#utouch-icon-arrow-right-1"></use>
-							</svg>
-							<svg class="utouch-icon utouch-icon-arrow-right1">
-								<use xlink:href="#utouch-icon-arrow-right1"></use>
-							</svg>
+              <?php itcorp_svg( 'utouch-icon-arrow-right-1','utouch-icon icon-hover utouch-icon-arrow-right-1' ); ?>
+							<?php itcorp_svg( 'utouch-icon-arrow-right1','utouch-icon utouch-icon-arrow-right1' ); ?>
 						</a>
 
 					</div>
@@ -216,12 +212,8 @@
 						</div>
 
 						<a href="#" class="btn-next">
-							<svg class="utouch-icon icon-hover utouch-icon-arrow-right-1">
-								<use xlink:href="#utouch-icon-arrow-right-1"></use>
-							</svg>
-							<svg class="utouch-icon utouch-icon-arrow-right1">
-								<use xlink:href="#utouch-icon-arrow-right1"></use>
-							</svg>
+              <?php itcorp_svg( 'utouch-icon-arrow-right-1','utouch-icon icon-hover utouch-icon-arrow-right-1' ); ?>
+							<?php itcorp_svg( 'utouch-icon-arrow-right1','utouch-icon utouch-icon-arrow-right1' ); ?>
 						</a>
 
 					</div>
@@ -243,12 +235,8 @@
 						</div>
 
 						<a href="#" class="btn-next">
-							<svg class="utouch-icon icon-hover utouch-icon-arrow-right-1">
-								<use xlink:href="#utouch-icon-arrow-right-1"></use>
-							</svg>
-							<svg class="utouch-icon utouch-icon-arrow-right1">
-								<use xlink:href="#utouch-icon-arrow-right1"></use>
-							</svg>
+              <?php itcorp_svg( 'utouch-icon-arrow-right-1','utouch-icon icon-hover utouch-icon-arrow-right-1' ); ?>
+							<?php itcorp_svg( 'utouch-icon-arrow-right1','utouch-icon utouch-icon-arrow-right1' ); ?>
 						</a>
 
 					</div>
