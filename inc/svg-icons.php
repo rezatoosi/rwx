@@ -1,6 +1,11 @@
 <?php
 
-function itcorp_svg( $name, $class ) {
+function itcorp_svg( $name, $class = '' ) {
+
+  if ( $class == '' ) {
+    $class = 'utouch-icon ' . $name;
+  }
+
   printf(
     '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="%2$s">%1$s</svg>',
     itcorp_get_svg_path( $name ),

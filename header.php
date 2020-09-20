@@ -15,7 +15,7 @@
 
 <!-- Preloader -->
 
-<!--<div id="hellopreloader" style="display: block; position: fixed;z-index: 99999;top: 0;left: 0;width: 100%;height: 100%;min-width: 100%;background: #66b5ff url(svg/preload.svg) center center no-repeat;background-size: 41px;opacity: 1;"></div>-->
+<!-- <div id="hellopreloader" style="display: block; position: fixed;z-index: 99999;top: 0;left: 0;width: 100%;height: 100%;min-width: 100%;background: #66b5ff url(svg/preload.svg) center center no-repeat;background-size: 41px;opacity: 1;"></div> -->
 
 <!-- ... end Preloader -->
 
@@ -24,7 +24,7 @@
 
 <header class="header header--small-lines header--menu-rounded" id="site-header">
 
-	<div class="header-lines-decoration">
+	<!-- <div class="header-lines-decoration">
 		<span class="bg-secondary-color"></span>
 		<span class="bg-blue"></span>
 		<span class="bg-blue-light"></span>
@@ -32,7 +32,7 @@
 		<span class="bg-red"></span>
 		<span class="bg-green"></span>
 		<span class="bg-secondary-color"></span>
-	</div>
+	</div> -->
 
 	<div class="container">
 
@@ -368,26 +368,25 @@
 					</li>
 
 					<li class="">
-						<a href="15_pricing_tables.html">Pricing</a>
-					</li>
-					<li class="">
-						<a href="16_news.html">News</a>
-					</li>
-
-					<li class="">
 						<a href="18_contacts.html">Contact</a>
 					</li>
 				</ul>
-				<ul class="nav-add">
+        <ul class="nav-add">
 					<li class="search search_main">
-						<a href="#" class="js-open-search-popup">
-							<svg class="utouch-icon utouch-icon-search cd-nav-trigger">
-								<use xlink:href="#utouch-icon-search"></use>
-							</svg>
-						</a>
+            <a href="tel:+989152271007" class="btn btn--green">
+              <i class="fa fa-phone fa-rotate-90"></i>
+              CALL NOW
+  					</a>
 					</li>
 				</ul>
-				<div class="search-standard">
+				<!-- <ul class="nav-add">
+					<li class="search search_main">
+						<a href="#" class="js-open-search-popup">
+              <?php itcorp_svg( 'utouch-icon-search','utouch-icon utouch-icon-search cd-nav-trigger' ); ?>
+						</a>
+					</li>
+				</ul> -->
+				<!-- <div class="search-standard">
 					<form id="search-header" name="form-search-header" method="post">
 						<div class="typeahead__container">
 							<div class="typeahead__field">
@@ -396,18 +395,16 @@
 								<input class="js-typeahead" name="utouch_posts[query]" placeholder="What are you looking for?" autocomplete="off" type="search" autofocus>
 							</span>
 								<button type="submit" class="form-icon">
-									<svg class="utouch-icon utouch-icon-search">
-										<use xlink:href="#utouch-icon-search"></use>
-									</svg>
+                  <?php itcorp_svg( 'utouch-icon-search' ); ?>
 								</button>
 								<span class="close js-popup-clear-input form-icon">
-								<svg class="utouch-icon utouch-icon-cancel-1"><use xlink:href="#utouch-icon-cancel-1"></use></svg>
+                  <?php itcorp_svg( 'utouch-icon-cancel-1' ); ?>
 							</span>
 
 							</div>
 						</div>
 					</form>
-				</div>
+				</div> -->
 			</nav>
 
 		</div>

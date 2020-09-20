@@ -53,7 +53,7 @@
 							</div>
 							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 								<div class="slider-thumb" data-swiper-parallax="-400" data-swiper-parallax-duration="600">
-									<img src="img/slides1.png" alt="slider">
+									<img src="<?php echo get_template_directory_uri(); ?>/img/slides1.png" alt="slider">
 								</div>
 							</div>
 
