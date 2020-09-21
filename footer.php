@@ -259,7 +259,7 @@
 
 
 <!-- Used SVG-icons -->
-
+<?php // TODO: remove svg icons from here - they are added in php functions ?>
 <svg xmlns="http://www.w3.org/2000/svg" style="display: block; width: 1px; height: 1px; visibility: hidden; opacity: 0;">
 
 	<symbol id="utouch-icon-calendar-1" viewBox="0 0 512 512">
