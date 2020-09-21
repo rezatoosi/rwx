@@ -20,9 +20,10 @@ const gulp = require('gulp'),
 
 gulp.task('sass', function(cb) {
 
-    gulp.src('html/sass/**/*.scss')
+    gulp.src('./sass/**/*.scss')
 		.pipe(sourcemaps.init())
-        .pipe(sass(
+		.pipe(sourcemaps.identityMap())
+    .pipe(sass(
 			{
 				linefeed: "crlf"
 			}
@@ -33,13 +34,13 @@ gulp.task('sass', function(cb) {
 				cascade: false
 			}
 		))
-		.pipe(sourcemaps.write('./maps'))
-        .pipe(gulp.dest('html/css'))
-        .pipe(plumber())
-        .pipe(sass({errLogToConsole: true}))
-        .pipe(browserSync.reload({
-            stream: true
-        }));
+		.pipe(sourcemaps.write())
+    .pipe(gulp.dest('./css'))
+    .pipe(plumber())
+    .pipe(sass({errLogToConsole: true}))
+    .pipe(browserSync.reload({
+        stream: true
+    }));
 	cb();
 });
 
