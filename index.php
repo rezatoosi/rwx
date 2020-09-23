@@ -51,7 +51,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							<div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-12 col-sm-offset-0 col-xs-12">
 								<div class="slider-thumb" data-swiper-parallax="-400" data-swiper-parallax-duration="600">
 									<img src="<?php echo get_template_directory_uri(); ?>/img/slides1.png" alt="slider">
 								</div>
@@ -134,7 +134,7 @@
 
 							<div class="col-lg-6 col-sm-12 table-cell">
 								<div class="slider-thumb" data-swiper-parallax="-300" data-swiper-parallax-duration="500">
-									<img src="img/slides2.png" alt="slider">
+									<img src="<?php echo get_template_directory_uri(); ?>/img/slides2.png" alt="slider">
 								</div>
 							</div>
 

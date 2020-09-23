@@ -2,7 +2,8 @@
 
 
 .header {
-  background: $white-color;
+  // background: $white-color;
+  background: none;
   position: fixed;
   width: 100%;
   z-index: 20;
@@ -11,6 +12,14 @@
   transition: all .3s ease;
   box-shadow: 15px 0 25px 0 rgba(200,219,239, 0.3);
   padding-top: 6px;
+
+  &.noshadow {
+    box-shadow: none;
+  }
+
+  &.nolines {
+    padding-top: 0;
+  }
 
   & > .container {
     @media (max-width: 1024px) {
@@ -61,8 +70,12 @@
     }
   }
 
+  &.slideDown:not(.headroom--top) {
+    background: rgba(255,255,255,0.9);
+  }
+
   &.headroom--not-top {
-    box-shadow: 40px 0 25px 0 rgba(200,219,239, 0.7);
+    box-shadow: 40px 0 25px 0 rgba(200,219,239, 0.1);
 
     .top-bar, .top-bar-link {
       opacity: 0;
@@ -115,7 +128,7 @@
 
 .nav-add {
   margin: 0;
-  padding-left: 39px;
+  padding-left: 15px;
 
   li {
     display: inline-block;
@@ -283,7 +296,8 @@
   }
 
   .primary-menu-menu > li {
-    padding: 40px 9px;
+    // padding: 40px 9px;
+    padding: 30px 9px;
   }
 
   & + .header-spacer {

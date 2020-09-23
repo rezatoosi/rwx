@@ -61,7 +61,7 @@ var CRUMINA = {};
 		// grab an element
 		$header.headroom(
 			{
-				"offset": 210,
+				"offset": 120,
 				"tolerance": 5,
 				"classes": {
 					"initial": "animated",
@@ -347,6 +347,8 @@ var CRUMINA = {};
 			});
 			initIterator++;
 		});
+
+		$('.main-slider').css('height',window.innerHeight);
 
 		//swiper arrows
 		$('.btn-prev').on('click', function () {

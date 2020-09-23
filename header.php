@@ -22,7 +22,7 @@
 
 <!-- Header -->
 
-<header class="header header--small-lines header--menu-rounded" id="site-header">
+<header class="header header--small-lines header--menu-rounded nolines noshadow" id="site-header">
 
 	<!-- <div class="header-lines-decoration">
 		<span class="bg-secondary-color"></span>
@@ -66,84 +66,20 @@
 				</a>
 
 				<ul class="primary-menu-menu">
-					<li class="menu-item-has-children">
-						<a href="index.html">Home</a>
+          <li class="menu-item-has-children">
+						<a href="index.html">Webdesign</a>
 					</li>
-
-					<li class="">
-						<a href="#">Company</a>
-						<ul class="sub-menu">
-							<li>
-								<a href="02_company.html">
-									About Us
-								</a>
-							</li>
-							<li class="menu-item-has-children">
-								<a href="#">
-									Services
-								</a>
-								<ul class="sub-menu">
-									<li>
-										<a href="08_events.html">Events</a>
-									</li>
-									<li>
-										<a href="05_case_details_ver_01.html">Case Details V1</a>
-									</li>
-
-									<li>
-										<a href="06_case_details_ver_02.html">Case Details V2</a>
-									</li>
-
-									<li>
-										<a href="07_case_details_ver_03.html">Case Details V3</a>
-									</li>
-									<li>
-										<a href="11_events_details_lesson.html">Events Lesson</a>
-									</li>
-									<li>
-										<a href="12_events_details_presentation.html">Events Presentation</a>
-									</li>
-
-									<li>
-										<a href="13_events_details_training.html">Events Training</a>
-									</li>
-
-									<li>
-										<a href="14_events_details_webinar.html">Events Webinar</a>
-									</li>
-								</ul>
-							</li>
-							<li>
-								<a href="03_products.html">
-									Products
-								</a>
-							</li>
-							<li>
-								<a href="09_events_details_conference_workshops.html">
-									Conference
-								</a>
-							</li>
-							<li class="">
-								<a href="10_events_details_course.html">
-									Course
-								</a>
-							</li>
-							<li>
-								<a href="04_works.html">
-									Cases
-								</a>
-							</li>
-
-							<li>
-								<a href="32_testimonials.html">
-									Testimonials
-								</a>
-							</li>
-						</ul>
+          <li class="menu-item-has-children">
+						<a href="index.html">e-Commerce</a>
 					</li>
-
-					<li class="menu-item-has-mega-menu menu-item-has-children">
-						<a href="#">Products</a>
+          <li class="menu-item-has-children">
+						<a href="index.html">Marketing</a>
+					</li>
+          <li class="menu-item-has-children">
+						<a href="index.html">Development</a>
+					</li>
+					<!-- <li class="menu-item-has-mega-menu menu-item-has-children">
+						<a href="#">Services</a>
 						<div class="megamenu with-products">
 							<div class="megamenu-row">
 
@@ -241,141 +177,12 @@
 
 							</div>
 						</div>
-					</li>
-
-					<li class="menu-item-has-mega-menu menu-item-has-children">
-						<a href="#">Events</a>
-
-						<div class="megamenu" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/menu-bg.jpg');">
-							<div class="megamenu-row">
-
-								<div class="col4">
-									<ul>
-										<li class="megamenu-item-info">
-											<h5 class="megamenu-item-info-title">Our Company</h5>
-											<p class="megamenu-item-info-text">Claritas processus dynamicus.</p>
-										</li>
-										<li>
-											<a href="02_company.html">About Us</a>
-										</li>
-										<li>
-											<a href="03_products.html">Products</a>
-										</li>
-										<li>
-											<a href="04_works.html">
-												Cases
-											</a>
-										</li>
-										<li>
-											<a href="08_events.html">Events</a>
-										</li>
-										<li>
-											<a href="09_events_details_conference_workshops.html">
-												Conference
-											</a>
-										</li>
-										<li class="">
-											<a href="10_events_details_course.html">
-												Course
-											</a>
-										</li>
-
-										<li>
-											<a href="32_testimonials.html">
-												Testimonials
-											</a>
-										</li>
-
-									</ul>
-								</div>
-								<div class="col4">
-									<ul>
-										<li class="megamenu-item-info">
-											<h5 class="megamenu-item-info-title">Services</h5>
-											<p class="megamenu-item-info-text">Mirum est notare quam littera.</p>
-										</li>
-										<li>
-											<a href="05_case_details_ver_01.html">Case Details V1</a>
-										</li>
-
-										<li>
-											<a href="06_case_details_ver_02.html">Case Details V2</a>
-										</li>
-
-										<li>
-											<a href="07_case_details_ver_03.html">Case Details V3</a>
-										</li>
-										<li>
-											<a href="11_events_details_lesson.html">Events Lesson</a>
-										</li>
-										<li>
-											<a href="12_events_details_presentation.html">Events Presentation</a>
-										</li>
-
-										<li>
-											<a href="13_events_details_training.html">Events Training</a>
-										</li>
-
-										<li>
-											<a href="14_events_details_webinar.html">Events Webinar</a>
-										</li>
-
-									</ul>
-								</div>
-								<div class="col4">
-									<ul>
-										<li class="megamenu-item-info">
-											<h5 class="megamenu-item-info-title">Elements</h5>
-											<p class="megamenu-item-info-text">Qui nunc nobis videntur parum clari.</p>
-										</li>
-										<li>
-											<a href="24_gallery_full_screen.html">Full Screen Gallery</a>
-										</li>
-										<li>
-											<a href="30_search_dark.html">Search Inline Dark</a>
-										</li>
-										<li>
-											<a href="30_search_light.html">Search Inline White</a>
-										</li>
-										<li>
-											<a href="31_search_full_screen_light.html">Search Fullscreen White</a>
-										</li>
-										<li>
-											<a href="23_galleries.html">Galleries</a>
-										</li>
-										<li>
-											<a href="17_news_details.html">Post Details</a>
-										</li>
-										<li>
-											<a href="20_page-not_found.html">Page Not Found 404</a>
-										</li>
-										<li>
-											<a href="29_headers.html">Headers</a>
-										</li>
-										<li>
-											<a href="typography.html">Typography</a>
-										</li>
-									</ul>
-								</div>
-
-
-								<div class="col4">
-
-								</div>
-
-							</div>
-						</div>
-					</li>
-
-					<li class="">
-						<a href="18_contacts.html">Contact</a>
-					</li>
+					</li> -->
 				</ul>
         <ul class="nav-add">
 					<li class="search search_main">
-            <a href="tel:+989152271007" class="btn btn--green">
-              <i class="fa fa-phone fa-rotate-90"></i>
-              CALL NOW
+            <a href="tel:+989152271007" class="btn btn-small btn--green">
+              CONTACT
   					</a>
 					</li>
 				</ul>
@@ -385,8 +192,8 @@
               <?php itcorp_svg( 'utouch-icon-search','utouch-icon utouch-icon-search cd-nav-trigger' ); ?>
 						</a>
 					</li>
-				</ul> -->
-				<!-- <div class="search-standard">
+				</ul>
+				<div class="search-standard">
 					<form id="search-header" name="form-search-header" method="post">
 						<div class="typeahead__container">
 							<div class="typeahead__field">
@@ -413,7 +220,7 @@
 
 </header>
 
-<div class="header-spacer"></div>
+<!-- <div class="header-spacer"></div> -->
 
 <!-- ... End Header -->
 
