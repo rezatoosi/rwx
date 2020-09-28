@@ -82,7 +82,7 @@
                 <a href="#">Contact</a>
               </li>
               <li class="fast-call">
-                <a href="#" class="btn btn-flat btn-border btn-small btn--with-icon">
+                <a href="#" class="btn btn-border btn-small btn--with-icon">
                   <?php itcorp_svg( 'itcorp-call', 'itcorp-call', '0 0 24 24' ); ?>
                   call now
                 </a>

@@ -13,7 +13,7 @@
 			<!-- Additional required wrapper -->
 			<div class="swiper-wrapper">
 				<!-- Slides -->
-				<div class="swiper-slide bg-1 main-slider-bg-light">
+				<div class="swiper-slide bg-00 main-slider-bg-light">
 
 					<div class="container">
 						<div class="row table-cell">
@@ -51,11 +51,11 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-12 col-sm-offset-0 col-xs-12">
+							<!-- <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-12 col-sm-offset-0 col-xs-12">
 								<div class="slider-thumb" data-swiper-parallax="-400" data-swiper-parallax-duration="600">
 									<img src="<?php echo get_template_directory_uri(); ?>/img/slides1.png" alt="slider">
 								</div>
-							</div>
+							</div> -->
 
 						</div>
 					</div>
@@ -1246,7 +1246,7 @@
 			<div class="row">
 				<div class="subscribe-form">
 					<div class="subscribe-main-content">
-						<img class="subscribe-img" src="img/subscribe-img.png" alt="image">
+						<img class="subscribe-img" src="<?php echo get_template_directory_uri(); ?>/img/subscribe-img.png" alt="image">
 
 						<div class="col-lg-7 col-md-12 col-sm-12 col-xs-12">
 							<div class="crumina-module crumina-heading">
@@ -1272,44 +1272,6 @@
 	</section>
 
 	<!-- End Subscribe Form -->
-
-
-	<!-- Promo Block -->
-
-	<section class="background-cover bg-blue-lighteen bg-12 align-center medium-padding120">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-12 col-sm-offset-0 col-xs-12">
-					<div class="crumina-module crumina-heading">
-						<h2 class="heading-title">Download the <span class="c-primary">Utouch</span> Now!</h2>
-						<p class="heading-text">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium
-							lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum.
-						</p>
-					</div>
-
-					<a href="#" class="btn btn-market btn--with-shadow">
-						<svg class="utouch-icon utouch-icon-apple-logotype-1">
-							<use xlink:href="#utouch-icon-apple-logotype-1"></use>
-						</svg>
-						<div class="text">
-							<span class="sup-title">Download on the</span>
-							<span class="title">App Store</span>
-						</div>
-					</a>
-
-					<a href="#" class="btn btn-market btn--with-shadow">
-						<img class="utouch-icon" src="svg-icons/google-play.svg" alt="google">
-						<div class="text">
-							<span class="sup-title">Download on the</span>
-							<span class="title">Google Play</span>
-						</div>
-					</a>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<!-- ... end Promo Block -->
 
 <?php
 get_footer();

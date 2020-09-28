@@ -3,14 +3,15 @@
 
 
 .footer {
-  background-image: url("../img/clouds.png");
+  // background-image: url("../img/clouds.png");
   background-color: $black;
-  padding: 120px 0 0;
+  // padding: 120px 0 0;
+  padding: 80px 0 0;
   position: relative;
-  box-shadow: 10px 0 30px 0 rgba(18, 25, 33, 0.4);
+  // box-shadow: 10px 0 30px 0 rgba(18, 25, 33, 0.4);
 
   .widget-title {
-	color: $white-color;
+    color: $white-color;
     margin-bottom: 30px;
   }
 
@@ -43,10 +44,11 @@
 
 .sub-footer {
   background-color: $white-color;
-  padding: 35px 0;
+  padding: 35px 0 15px;
   text-align: center;
   position: relative;
-  margin-top: 120px;
+  // margin-top: 120px;
+  margin-top: 80px;
 
   span {
     font-size: 14px;

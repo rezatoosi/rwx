@@ -157,6 +157,14 @@
   bottom: 0;
 }
 
+.medium-padding40 {
+  padding: 40px 0;
+
+  @media (max-width: 800px) {
+    padding: 25px 0;
+  }
+}
+
 .medium-padding80 {
   padding: 80px 0;
 

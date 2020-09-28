@@ -500,10 +500,14 @@ div:hover > .btn-reverse-bg-green {
   left: 50%;
   transform: translate(-50%, 0);
   cursor: pointer;
-  box-shadow: 10px 0 30px 0 rgba(0,130,215, 0.4);
+  // box-shadow: 10px 0 30px 0 rgba(0,130,215, 0.4);
   border-radius: 100%;
   background-color: $primary-color;
   text-align: center;
+
+  &:hover {
+    background: $secondary-color;
+  }
 
   &.hidden {
     opacity: 0;

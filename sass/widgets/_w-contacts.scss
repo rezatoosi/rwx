@@ -29,13 +29,24 @@
 
 .contact-item {
   margin-bottom: 5px;
+  color: $blue-light;
+
+  a {
+    color: $blue-light;
+
+    &:hover {
+      color: $primary-color;
+    }
+  }
 
   .utouch-icon {
-	height: 18px;
-	width: 18px;
-	color: $primary-color;
-	fill: $primary-color;
-	margin-right: 10px;
+  	height: 18px;
+  	width: 18px;
+  	// color: $primary-color;
+  	// fill: $primary-color;
+    color: $blue-light;
+  	fill: $blue-light;
+  	margin-right: 10px;
   }
 }
 

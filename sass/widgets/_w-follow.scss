@@ -3,27 +3,53 @@
 
 
 .w-follow {
+	margin-top: 20px;
+
 	ul li {
 	  display: inline-block;
-	  margin-right: 10px;
+		// margin-right: 10px;
+	  margin-right: 5px;
 	  vertical-align: middle;
 	  line-height: 1;
 	  font-weight: $h-font-weight;
 	}
 
   ul li a {
-	display: inline-block;
+		border-radius: 50%;
+		display: inline-block;
+		padding: 15px;
+		background: $secondary-color;
+		vertical-align: middle;
+		width: 46px;
+		height: 46px;
+
+		.utouch-icon {
+			color: $blue-lighteen;
+			fill: $blue-lighteen;
+		}
+
+		&:hover,:focus,:active {
+			background-color: $primary-color;
+
+			.utouch-icon {
+				color: $white-color;
+				fill: $white-color;
+			}
+
+		}
   }
 
   .utouch-icon {
-	color: $icon-color;
-	fill: $icon-color;
-	height: 14px;
-	width: 14px;
+	// color: $icon-color;
+	// fill: $icon-color;
+	color: $secondary-color;
+	fill: $secondary-color;
+	height: 16px;
+	width: 16px;
 
 	&:hover {
-	  color: $primary-color;
-	  fill: $primary-color;
+	  // color: $primary-color;
+	  // fill: $primary-color;
 	}
   }
 }
