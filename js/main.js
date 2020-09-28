@@ -59,17 +59,28 @@ var CRUMINA = {};
 
 	CRUMINA.fixedHeader = function () {
 		// grab an element
-		$header.headroom(
-			{
-				"offset": 120,
-				"tolerance": 5,
-				"classes": {
-					"initial": "animated",
-					"pinned": "slideDown",
-					"unpinned": "slideUp"
-				}
+		// $header.headroom(
+		// 	{
+		// 		"offset": 120,
+		// 		"tolerance": 5,
+		// 		"classes": {
+		// 			"initial": "animated",
+		// 			"pinned": "slideDown",
+		// 			"unpinned": "slideUp"
+		// 		}
+		// 	}
+		// );
+
+		//Added by reza
+		var $window = jQuery(window);
+		$window.scroll(function(){
+			if($window.scrollTop()>5){
+				$header.addClass('sticky');
 			}
-		);
+			else {
+				$header.removeClass('sticky');
+			}
+		});
 	};
 
 
@@ -498,6 +509,18 @@ var CRUMINA = {};
 	 * On Click Functions
 	 * ---------------------------*/
 
+	jQuery('#menu-icon-trigger').on('click', function() {
+		var $pageBody = jQuery('body');
+		var $menuWrapper = jQuery('.main-menu-wrapper');
+		if ($menuWrapper.hasClass('open')) {
+			$menuWrapper.css({'height': '0'});
+		}
+		else {
+			$menuWrapper.css({'height': window.innerHeight});
+		}
+		// $pageBody.toggleClass('modal-open');
+		$menuWrapper.toggleClass('open');
+	});
 
 	$window.keydown(function (eventObject) {
 		if (eventObject.which == 27) {
