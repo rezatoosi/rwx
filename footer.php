@@ -135,34 +135,51 @@
 		<h5>Send a Message</h5>
 		<p>Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magnais.</p>
 		<form class="form-validate contact-form crumina-submit" method="post" data-nonce="crumina-submit-form-nonce" data-type="standard" action="modules/forms/submit.php">
-			<div class="with-icon">
-				<input name="name" placeholder="Your Name" type="text" required>
-				<svg class="utouch-icon utouch-icon-user"><use xlink:href="#utouch-icon-user"></use></svg>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+						<div class="with-icon">
+							<input name="name" placeholder="Your Name" type="text" required>
+							<svg class="utouch-icon utouch-icon-user"><use xlink:href="#utouch-icon-user"></use></svg>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+						<div class="with-icon">
+							<input name="email" placeholder="Email Adress" type="text" required>
+							<svg class="utouch-icon utouch-icon-message-closed-envelope-1"><use xlink:href="#utouch-icon-message-closed-envelope-1"></use></svg>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+						<div class="with-icon">
+							<input class="with-icon" name="phone" placeholder="Phone Number" type="tel" required>
+							<svg class="utouch-icon utouch-icon-telephone-keypad-with-ten-keys"><use xlink:href="#utouch-icon-telephone-keypad-with-ten-keys"></use></svg>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+						<div class="with-icon">
+							<input class="with-icon" name="subject" placeholder="Subject" type="text" required>
+							<svg class="utouch-icon utouch-icon-icon-1"><use xlink:href="#utouch-icon-icon-1"></use></svg>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						<div class="with-icon">
+							<textarea name="message" required placeholder="Your Message" rows="5"></textarea>
+							<svg class="utouch-icon utouch-icon-edit"><use xlink:href="#utouch-icon-edit"></use></svg>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						<button class="btn btn--green btn--with-shadow full-width">
+							Send Message
+						</button>
+					</div>
+				</div>
 			</div>
-
-			<div class="with-icon">
-				<input name="email" placeholder="Email Adress" type="text" required>
-				<svg class="utouch-icon utouch-icon-message-closed-envelope-1"><use xlink:href="#utouch-icon-message-closed-envelope-1"></use></svg>
-			</div>
-
-			<div class="with-icon">
-				<input class="with-icon" name="phone" placeholder="Phone Number" type="tel" required>
-				<svg class="utouch-icon utouch-icon-telephone-keypad-with-ten-keys"><use xlink:href="#utouch-icon-telephone-keypad-with-ten-keys"></use></svg>
-			</div>
-
-			<div class="with-icon">
-				<input class="with-icon" name="subject" placeholder="Subject" type="text" required>
-				<svg class="utouch-icon utouch-icon-icon-1"><use xlink:href="#utouch-icon-icon-1"></use></svg>
-			</div>
-
-			<div class="with-icon">
-				<textarea name="message" required placeholder="Your Message" rows="5"></textarea>
-				<svg class="utouch-icon utouch-icon-edit"><use xlink:href="#utouch-icon-edit"></use></svg>
-			</div>
-
-			<button class="btn btn--green btn--with-shadow full-width">
-				Send a Message
-			</button>
 		</form>
 	</div>
 </div>
