@@ -34,3 +34,12 @@ function itcorp_site_logo( $args = array(), $echo = true ) {
 
   echo $html;
 }
+
+function itcorp_social_buttons() {
+  $social_item = '<li><a href="%1$s">%2$s</a></li>';
+  $html = sprintf( $social_item, '#', itcorp_svg( 'social-instagram2', '', '0 0 24 24', false ) );
+  $html .= sprintf( $social_item, '#', itcorp_svg( 'social-facebook2', '', '0 0 24 24', false ) );
+  $html .= sprintf( $social_item, '#', itcorp_svg( 'social-linkedin2', '', '0 0 24 24', false ) );
+  $html .= sprintf( $social_item, '#', itcorp_svg( 'social-whatsapp', '', '0 0 24 24', false ) );
+  echo '<ul>' . $html . '</ul>';
+}

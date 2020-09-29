@@ -73,29 +73,7 @@
 				</div>
 
 				<div class="widget w-follow">
-					<ul>
-						<li class="sr-only">Follow Us:</li>
-						<li>
-							<a href="#">
-								<?php itcorp_svg( 'social-instagram2', '', '0 0 24 24' ); ?>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<?php itcorp_svg( 'social-facebook2', '', '0 0 24 24' ); ?>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<?php itcorp_svg( 'social-linkedin2', '', '0 0 24 24' ); ?>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<?php itcorp_svg( 'social-whatsapp', '', '0 0 24 24' ); ?>
-							</a>
-						</li>
-					</ul>
+					<?php itcorp_social_buttons(); ?>
 				</div>
 			</div>
 		</div>

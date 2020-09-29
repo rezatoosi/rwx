@@ -1,6 +1,6 @@
 <?php
 
-function itcorp_svg( $name, $class = '', $viewbox = '' ) {
+function itcorp_svg( $name, $class = '', $viewbox = '', $print = true ) {
 
   if ( $class == '' ) {
     $class = 'utouch-icon ' . $name;
@@ -10,12 +10,23 @@ function itcorp_svg( $name, $class = '', $viewbox = '' ) {
     $viewbox = '0 0 512 512';
   }
 
-  printf(
-    '<svg xmlns="http://www.w3.org/2000/svg" viewBox="%3$s" class="%2$s">%1$s</svg>',
-    itcorp_get_svg_path( $name ),
-    $class,
-    $viewbox
-  );
+  if ( ! $print ) {
+      return sprintf(
+              '<svg xmlns="http://www.w3.org/2000/svg" viewBox="%3$s" class="%2$s">%1$s</svg>',
+              itcorp_get_svg_path( $name ),
+              $class,
+              $viewbox
+            );
+  }
+  else {
+    printf(
+      '<svg xmlns="http://www.w3.org/2000/svg" viewBox="%3$s" class="%2$s">%1$s</svg>',
+      itcorp_get_svg_path( $name ),
+      $class,
+      $viewbox
+    );
+  }
+
 }
 
 function itcorp_get_svg_path( $name ) {
