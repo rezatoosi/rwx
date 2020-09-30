@@ -72,7 +72,7 @@
                 <a href="#">Contact</a>
               </li>
               <li class="fast-call">
-                <a href="#" class="btn btn-border btn-small btn--with-icon">
+                <a href="#" class="btn btn-border btn-small c-secondary btn--with-icon">
                   call now
                 </a>
               </li>

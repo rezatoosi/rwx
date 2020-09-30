@@ -88,16 +88,6 @@
   border: 2px solid;
   background-color: transparent;
 
-  border-color: $secondary-color;
-  color: $secondary-color;
-  fill: $secondary-color;
-
-  &:hover,:active,:focus {
-    background-color: $secondary-color;
-    color: $white-color !important;
-    fill: $white-color;
-  }
-
   &.btn {
     padding: 16px 50px;
   }
@@ -180,11 +170,31 @@ div:hover > .btn-reverse-bg-green {
 .c-primary {
   color: $primary-color;
   fill: $primary-color;
+
+  &.btn-border {
+    border-color: $primary-color;
+
+    &:hover,:active,:focus {
+      background-color: $primary-color;
+      color: $white-color;
+      fill: $white-color;
+    }
+  }
 }
 
 .c-secondary {
   color: $secondary-color;
   fill: $secondary-color;
+
+  &.btn-border {
+    border-color: $secondary-color;
+
+    &:hover,:active,:focus {
+      background-color: $secondary-color;
+      color: $white-color !important;
+      fill: $white-color;
+    }
+  }
 }
 
 .c-gray {

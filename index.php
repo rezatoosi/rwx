@@ -6,7 +6,6 @@
  get_header();
 ?>
 	<!-- Main Slider -->
-
 	<div class="crumina-module crumina-module-slider container-full-width">
 		<div class="swiper-container main-slider navigation-center-both-sides" data-effect="fade">
 
@@ -165,87 +164,208 @@
 
 		</div>
 	</div>
-
 	<!-- ... end Main Slider -->
 
-	<!-- Info Boxes -->
+  <!-- ... About -->
+  <section class="medium-padding40 bg-primary-color bg-5">
+    <div class="container">
+      <div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+					<div class="crumina-module crumina-info-box info-box--numbers">
+						<h5 class="order-number">01.</h5>
+						<h3 class="h5 info-box-title">Who We Are</h3>
+						<p class="info-box-text">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
+							molestie consequat, vel illum dolore eu feugiat nulla facilisis.
+						</p>
+					</div>
+				</div>
 
-	<section class="medium-padding100">
+				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+					<div class="crumina-module crumina-info-box info-box--numbers">
+						<h5 class="order-number">02.</h5>
+						<h3 class="h5 info-box-title">What We Do</h3>
+						<p class="info-box-text">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium
+							lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram,
+							anteposuerit litterarum formas humanitatis per.
+						</p>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+					<div class="crumina-module crumina-info-box info-box--numbers">
+						<h5 class="order-number">03.</h5>
+						<h3 class="h5 info-box-title">How We Do It</h3>
+						<p class="info-box-text">Mirum est notare quam littera gothica, quam nunc putamus parum claram,
+							anteposuerit litterarum formas humanitatis per.
+						</p>
+					</div>
+				</div>
+			</div>
+    </div>
+  </section>
+  <!-- ... end About -->
+
+  <!-- Services -->
+	<section class="medium-padding120 crumina-services">
 		<div class="container">
+			<div class="row mb60">
+				<div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-12 col-xs-12 align-center">
+					<div class="crumina-module crumina-heading">
+						<h2 class="heading-title">Our Services</h2>
+					</div>
+				</div>
+			</div>
 			<div class="row">
-				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-					<div class="crumina-module crumina-info-box info-box--standard-hover">
+				<div class="services-wrap">
+					<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+						<div class="crumina-module crumina-service-item" data-mh="services">
+							<div class="service-thumb">
+								<img src="<?php echo get_template_directory_uri(); ?>/svg-icons/rocket.svg" alt="rocket" class="icon-img">
+								<img class="cloud" src="<?php echo get_template_directory_uri(); ?>/img/clouds8.png" alt="cloud">
+							</div>
 
-						<div class="info-box-image">
-							<img class="utouch-icon" src="svg-icons/smartphone.svg" alt="smartphone">
-							<img class="cloud" src="img/clouds8.png" alt="cloud">
+							<div class="main-service-content">
+								<a href="#" class="h5 service-title">Startup</a>
+
+								<p class="service-description">Mirum est notare quam littera gothica, quam nunc putamus parum legere me lius.</p>
+
+								<a href="#" class="more-arrow">
+									<span>Learn More</span>
+									<div class="btn-next">
+                    <?php itcorp_svg( 'utouch-icon-arrow-right-1', 'utouch-icon icon-hover utouch-icon-arrow-right-1' ); ?>
+                    <?php itcorp_svg( 'utouch-icon-arrow-right1', 'utouch-icon utouch-icon-arrow-right1' ); ?>
+									</div>
+								</a>
+
+							</div>
+
 						</div>
-
-						<div class="info-box-content">
-							<a href="#" class="h5 info-box-title">Online Shopping</a>
-							<p class="info-box-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-								nibh euismod tincidunt ut laoreet dolore magna aliquam.
-							</p>
-						</div>
-
-						<a href="#" class="btn-next">
-              <?php itcorp_svg( 'utouch-icon-arrow-right-1','utouch-icon icon-hover utouch-icon-arrow-right-1' ); ?>
-							<?php itcorp_svg( 'utouch-icon-arrow-right1','utouch-icon utouch-icon-arrow-right1' ); ?>
-						</a>
-
 					</div>
-				</div>
+          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+						<div class="crumina-module crumina-service-item" data-mh="services">
+							<div class="service-thumb">
+								<img src="<?php echo get_template_directory_uri(); ?>/svg-icons/rocket.svg" alt="rocket" class="icon-img">
+								<img class="cloud" src="<?php echo get_template_directory_uri(); ?>/img/clouds8.png" alt="cloud">
+							</div>
 
-				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-					<div class="crumina-module crumina-info-box info-box--standard-hover">
+							<div class="main-service-content">
+								<a href="#" class="h5 service-title">Startup</a>
 
-						<div class="info-box-image">
-							<img class="utouch-icon" src="svg-icons/music%20(1).svg" alt="smartphone">
-							<img class="cloud" src="img/clouds9.png" alt="cloud">
+								<p class="service-description">Mirum est notare quam littera gothica, quam nunc putamus parum legere me lius.</p>
+
+								<a href="#" class="more-arrow">
+									<span>Learn More</span>
+									<div class="btn-next">
+                    <?php itcorp_svg( 'utouch-icon-arrow-right-1', 'utouch-icon icon-hover utouch-icon-arrow-right-1' ); ?>
+                    <?php itcorp_svg( 'utouch-icon-arrow-right1', 'utouch-icon utouch-icon-arrow-right1' ); ?>
+									</div>
+								</a>
+
+							</div>
+
 						</div>
-
-						<div class="info-box-content">
-							<a href="#" class="h5 info-box-title">Multimedia Archives</a>
-							<p class="info-box-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-								nibh euismod tincidunt ut laoreet dolore magna aliquam.
-							</p>
-						</div>
-
-						<a href="#" class="btn-next">
-              <?php itcorp_svg( 'utouch-icon-arrow-right-1','utouch-icon icon-hover utouch-icon-arrow-right-1' ); ?>
-							<?php itcorp_svg( 'utouch-icon-arrow-right1','utouch-icon utouch-icon-arrow-right1' ); ?>
-						</a>
-
 					</div>
-				</div>
+          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+						<div class="crumina-module crumina-service-item" data-mh="services">
+							<div class="service-thumb">
+								<img src="<?php echo get_template_directory_uri(); ?>/svg-icons/rocket.svg" alt="rocket" class="icon-img">
+								<img class="cloud" src="<?php echo get_template_directory_uri(); ?>/img/clouds8.png" alt="cloud">
+							</div>
 
-				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-					<div class="crumina-module crumina-info-box info-box--standard-hover">
+							<div class="main-service-content">
+								<a href="#" class="h5 service-title">Startup</a>
 
-						<div class="info-box-image">
-							<img class="utouch-icon" src="svg-icons/settings%20(4).svg" alt="smartphone">
-							<img class="cloud" src="img/clouds10.png" alt="cloud">
+								<p class="service-description">Mirum est notare quam littera gothica, quam nunc putamus parum legere me lius.</p>
+
+								<a href="#" class="more-arrow">
+									<span>Learn More</span>
+									<div class="btn-next">
+                    <?php itcorp_svg( 'utouch-icon-arrow-right-1', 'utouch-icon icon-hover utouch-icon-arrow-right-1' ); ?>
+                    <?php itcorp_svg( 'utouch-icon-arrow-right1', 'utouch-icon utouch-icon-arrow-right1' ); ?>
+									</div>
+								</a>
+
+							</div>
+
 						</div>
+					</div>
+          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+						<div class="crumina-module crumina-service-item" data-mh="services">
+							<div class="service-thumb">
+								<img src="<?php echo get_template_directory_uri(); ?>/svg-icons/rocket.svg" alt="rocket" class="icon-img">
+								<img class="cloud" src="<?php echo get_template_directory_uri(); ?>/img/clouds8.png" alt="cloud">
+							</div>
 
-						<div class="info-box-content">
-							<a href="#" class="h5 info-box-title">Quick Settings</a>
-							<p class="info-box-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-								nibh euismod tincidunt ut laoreet dolore magna aliquam.
-							</p>
+							<div class="main-service-content">
+								<a href="#" class="h5 service-title">Startup</a>
+
+								<p class="service-description">Mirum est notare quam littera gothica, quam nunc putamus parum legere me lius.</p>
+
+								<a href="#" class="more-arrow">
+									<span>Learn More</span>
+									<div class="btn-next">
+                    <?php itcorp_svg( 'utouch-icon-arrow-right-1', 'utouch-icon icon-hover utouch-icon-arrow-right-1' ); ?>
+                    <?php itcorp_svg( 'utouch-icon-arrow-right1', 'utouch-icon utouch-icon-arrow-right1' ); ?>
+									</div>
+								</a>
+
+							</div>
+
 						</div>
+					</div>
+          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+						<div class="crumina-module crumina-service-item" data-mh="services">
+							<div class="service-thumb">
+								<img src="<?php echo get_template_directory_uri(); ?>/svg-icons/rocket.svg" alt="rocket" class="icon-img">
+								<img class="cloud" src="<?php echo get_template_directory_uri(); ?>/img/clouds8.png" alt="cloud">
+							</div>
 
-						<a href="#" class="btn-next">
-              <?php itcorp_svg( 'utouch-icon-arrow-right-1','utouch-icon icon-hover utouch-icon-arrow-right-1' ); ?>
-							<?php itcorp_svg( 'utouch-icon-arrow-right1','utouch-icon utouch-icon-arrow-right1' ); ?>
-						</a>
+							<div class="main-service-content">
+								<a href="#" class="h5 service-title">Startup</a>
 
+								<p class="service-description">Mirum est notare quam littera gothica, quam nunc putamus parum legere me lius.</p>
+
+								<a href="#" class="more-arrow">
+									<span>Learn More</span>
+									<div class="btn-next">
+                    <?php itcorp_svg( 'utouch-icon-arrow-right-1', 'utouch-icon icon-hover utouch-icon-arrow-right-1' ); ?>
+                    <?php itcorp_svg( 'utouch-icon-arrow-right1', 'utouch-icon utouch-icon-arrow-right1' ); ?>
+									</div>
+								</a>
+
+							</div>
+
+						</div>
+					</div>
+          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+						<div class="crumina-module crumina-service-item" data-mh="services">
+							<div class="service-thumb">
+								<img src="<?php echo get_template_directory_uri(); ?>/svg-icons/rocket.svg" alt="rocket" class="icon-img">
+								<img class="cloud" src="<?php echo get_template_directory_uri(); ?>/img/clouds8.png" alt="cloud">
+							</div>
+
+							<div class="main-service-content">
+								<a href="#" class="h5 service-title">Startup</a>
+
+								<p class="service-description">Mirum est notare quam littera gothica, quam nunc putamus parum legere me lius.</p>
+
+								<a href="#" class="more-arrow">
+									<span>Learn More</span>
+									<div class="btn-next">
+                    <?php itcorp_svg( 'utouch-icon-arrow-right-1', 'utouch-icon icon-hover utouch-icon-arrow-right-1' ); ?>
+                    <?php itcorp_svg( 'utouch-icon-arrow-right1', 'utouch-icon utouch-icon-arrow-right1' ); ?>
+									</div>
+								</a>
+
+							</div>
+
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-
-	<!-- ... end Info Boxes -->
+	<!-- ... end Services -->
 
 
 	<!-- Slider with vertical tabs -->

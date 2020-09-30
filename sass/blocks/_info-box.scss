@@ -165,6 +165,18 @@
   }
 }
 
+.bg-primary-color .info-box--numbers {
+  .order-number {
+	   color: $blue-light;
+  }
+  .info-box-title {
+    color: $white-color;
+  }
+  .info-box-text {
+    color: $blue-lighteen;
+  }
+}
+
 .info-box--time-line {
   text-align: center;
   margin-top: 20px;

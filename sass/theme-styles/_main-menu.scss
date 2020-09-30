@@ -182,6 +182,12 @@
     & ul {
       & li {
         display: inline-block;
+        margin-left: 5px;
+
+        &:first-child {
+          margin-left: 0;
+        }
+
         & a {
           background-color: $secondary-color;
           border-radius: 50%;
