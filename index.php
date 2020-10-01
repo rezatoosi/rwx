@@ -17,26 +17,22 @@
 					<div class="container">
 						<div class="row table-cell">
 
-							<div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-12 col-sm-offset-0 col-xs-12">
+							<div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-12 col-sm-offset-0 col-xs-12">
 
 								<div class="slider-content align-center">
 
 									<h1 class="slider-content-title with-decoration" data-swiper-parallax="-100">
-										The power of Technology
+										We Create Exceptional Websites
 
-										<svg class="first-decoration utouch-icon utouch-icon-arrow-left">
-											<use xlink:href="#utouch-icon-arrow-left"></use>
-										</svg>
+                    <?php itcorp_svg( 'utouch-icon-arrow-left', 'first-decoration utouch-icon utouch-icon-arrow-left' ) ?>
 
-										<svg class="second-decoration utouch-icon utouch-icon-arrow-left">
-											<use xlink:href="#utouch-icon-arrow-left"></use>
-										</svg>
+                    <?php itcorp_svg( 'utouch-icon-arrow-left', 'second-decoration utouch-icon utouch-icon-arrow-left' ) ?>
 
 									</h1>
-									<h6 class="slider-content-text" data-swiper-parallax="-200">Lorem ipsum dolor sit
+									<h2 class="slider-content-text" data-swiper-parallax="-200">Lorem ipsum dolor sit
 										amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
 										laoreet dolore magna aliquam erat volutpat.
-									</h6>
+									</h2>
 
 									<div class="main-slider-btn-wrap" data-swiper-parallax="-300">
 
