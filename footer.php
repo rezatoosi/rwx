@@ -88,7 +88,7 @@
 			<div class="row">
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <span>
-                    Copyright © 2020 <a href="http://www.riowex.com" class="sub-footer__link">RIOWEX</a>. All rights reserved.
+                    Copyright © 2020 <a href="https://www.riowex.com" class="sub-footer__link">RIOWEX</a>. All rights reserved.
                 </span>
 				</div>
 			</div>
@@ -106,15 +106,16 @@
 	</a>
 
 	<div class="send-message-popup">
-		<h5>Send a Message</h5>
-		<!-- <p>Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magnais.</p> -->
-		<?php // TODO: Register sidebar for contact form ?>
-		<?php echo do_shortcode( '[contact-form-7 id="10" title="send-message-footer" html_class="form-validate contact-form crumina-submit"]' ); ?>
-
-
-
+		<?php
+			if ( is_active_sidebar( 'footer-contact-form' ) ) {
+				dynamic_sidebar( 'footer-contact-form' );
+			}
+		?>
 		<?php
 		// HTML Form
+		//
+		// <h5>Send a message</h5>
+		// <p>sub-title-here</p>
 		//
 		// <form class="form-validate contact-form crumina-submit" method="post" data-nonce="crumina-submit-form-nonce" data-type="standard" action="modules/forms/submit.php">
 		// 	<div class="container">
