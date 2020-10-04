@@ -88,7 +88,7 @@
 			<div class="row">
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <span>
-                    Copyright © 2020 <a href="index.html" class="sub-footer__link">RIOWEX</a>. All rights reserved.
+                    Copyright © 2020 <a href="http://www.riowex.com" class="sub-footer__link">RIOWEX</a>. All rights reserved.
                 </span>
 				</div>
 			</div>
@@ -102,14 +102,13 @@
 <!-- Send Message Popup -->
 <div class="window-popup message-popup">
 	<a href="#" class="popup-close js-popup-close cd-nav-trigger">
-		<svg class="utouch-icon utouch-icon-cancel-1">
-			<use xlink:href="#utouch-icon-cancel-1"></use>
-		</svg>
+		<?php itcorp_svg( 'utouch-icon-cancel-1' ); ?>
 	</a>
 
 	<div class="send-message-popup">
 		<h5>Send a Message</h5>
-		<p>Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magnais.</p>
+		<!-- <p>Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magnais.</p> -->
+		<?php // TODO: Register sidebar for contact form ?>
 		<?php echo do_shortcode( '[contact-form-7 id="10" title="send-message-footer" html_class="form-validate contact-form crumina-submit"]' ); ?>
 
 
