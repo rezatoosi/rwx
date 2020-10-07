@@ -84,7 +84,7 @@
                 visibility .001s ease;
 
 
-    & ul.main-menu {
+    & .main-menu-top {
       transform: translateY(0);
       opacity: 1;
       transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
@@ -97,10 +97,13 @@
     overflow: hidden;
   }
 
-  & ul.main-menu {
+  & .main-menu-top {
     opacity: 0;
     transform: translateY(-2000px);
-    transition: transform 0.35s ease-in-out, opacity 0.5s ease-in-out;;
+    transition: transform 0.35s ease-in-out, opacity 0.5s ease-in-out;
+  }
+
+  & ul.main-menu {
 
     li {
       padding: 5px 0;
@@ -137,34 +140,52 @@
           font-size: 1.1em;
         }
       }
+    }
+  }
 
-      &.fast-call {
-        margin-top: 20px;
+  .fast-call {
+    margin-top: 20px;
+    text-align: center;
 
-        @media (max-width: 360px) {
-          margin-top: 5px;
-        }
+    @media (max-width: 360px) {
+      margin-top: 5px;
+    }
 
-        & .btn {
-          padding: 18px 30px;
+    & .btn {
+      padding: 18px 30px;
+      font-size: $h4-fontsize;
+      font-weight: $h-font-weight;
+      letter-spacing: 0.6vh;
+      text-transform: uppercase;
 
-          @media (max-width: 360px) {
-            padding: 10px 12px;
-          }
+      @media (max-width: 800px) {
+        font-size: 1.7em;
+      }
 
-          & svg {
-            display: inline-block;
-            width: 30px;
-            height: 30px;
-            margin-right: 5px;
-            display: none;
-          }
+      @media (max-width: 640px) {
+        font-size: 1.5em;
+      }
 
-          &:hover,:active,:focus {
-            border-color: $primary-color;
-            background-color: $primary-color;
-          }
-        }
+      @media (max-width: 480px) {
+        font-size: 1.3em;
+      }
+
+      @media (max-width: 360px) {
+        font-size: 1.1em;
+        padding: 10px 12px;
+      }
+
+      & svg {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        margin-right: 5px;
+        display: none;
+      }
+
+      &:hover,:active,:focus {
+        border-color: $primary-color;
+        background-color: $primary-color;
       }
     }
   }

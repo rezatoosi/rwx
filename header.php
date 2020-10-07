@@ -18,7 +18,7 @@
 
 <!-- Header -->
 <header class="header nolines noshadow" id="site-header">
-	<div class="container">
+	<div class="container-fluid">
 		<div class="header-content-wrapper">
 
 			<?php
@@ -55,28 +55,19 @@
       <div class="main-menu-wrapper">
         <nav class="main-menu-nav">
           <div class="container">
-            <ul class="main-menu">
-              <li>
-                <a href="#">Home</a>
-              </li>
-              <li>
-                <a href="#">About</a>
-              </li>
-              <li>
-                <a href="#">Services</a>
-              </li>
-              <li>
-                <a href="#">Blog</a>
-              </li>
-              <li>
-                <a href="#">Contact</a>
-              </li>
-              <li class="fast-call">
-                <a href="#" class="btn btn-border btn-small c-secondary btn--with-icon">
-                  call now
-                </a>
-              </li>
-            </ul>
+            <div class="main-menu-top">
+							<?php
+							wp_nav_menu( array(
+								'theme_location'	=>	'primary',
+								'menu_class' 			=>	'main-menu'
+							) );
+							?>
+							<div class="fast-call">
+								<a href="#" class="btn btn-border btn-small c-secondary btn--with-icon">
+									call now
+								</a>
+							</div>
+						</div>
             <div class="social-buttons">
               <?php itcorp_social_buttons(); ?>
             </div>

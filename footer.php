@@ -39,7 +39,8 @@
 					</div>
 				</div>
 				<div class="widget w-nav">
-					<ul>
+					<?php wp_nav_menu( array( 'theme_location' => 'footer_nav' ) ); ?>
+					<!-- <ul>
 						<li>
 							<a href="#">home</a>
 						</li>
@@ -55,7 +56,7 @@
 						<li>
 							<a href="#">contact</a>
 						</li>
-					</ul>
+					</ul> -->
 				</div>
 
 			</div>
