@@ -38,6 +38,8 @@ require get_template_directory() . '/inc/register-sidebars.php';
  */
 require get_template_directory() . '/inc/template-tags.php';
 require get_template_directory() . '/inc/svg-icons.php';
+require get_template_directory() . '/inc/customizer/customizer.php';
+
 
 // Register styles & scripts
 require get_template_directory() . '/inc/register-styles.php';

@@ -33,13 +33,15 @@
       <div class="nav-wrapper">
         <ul>
 					<li class="nav-contact-button">
-            <a href="#" class="btn btn-small btn--green">
-              CONTACT
+            <a href="<?php echo get_theme_mod( 'header_button_link' ); ?>" class="btn btn-small btn--green">
+              <?php echo get_theme_mod( 'header_button_text' ); ?>
   					</a>
 					</li>
           <li>
             <a href='javascript:void(0)' id="menu-icon-trigger" class="menu-icon-trigger showhide">
-              <span class="mob-menu--title sr-only">Menu</span>
+              <span class="mob-menu--title sr-only">
+								<?php _e( 'Menu', 'itcorp' ); ?>
+							</span>
               <span id="menu-icon-wrapper" class="menu-icon-wrapper">
                 <svg width="1000px" height="1000px">
                   <path id="pathD" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
@@ -63,8 +65,8 @@
 							) );
 							?>
 							<div class="fast-call">
-								<a href="#" class="btn btn-border btn-small c-secondary btn--with-icon">
-									call now
+								<a href="<?php echo get_theme_mod( 'menu_button_link' ); ?>" class="btn btn-border btn-small c-secondary btn--with-icon">
+									<?php echo get_theme_mod( 'menu_button_text' ); ?>
 								</a>
 							</div>
 						</div>
