@@ -8,7 +8,7 @@
   <?php wp_head(); ?>
 </head>
 
-<body class="crumina-grid">
+<body <?php body_class( 'crumina-grid' ); ?>>
   <?php wp_body_open(); ?>
 
 <!-- Preloader -->
@@ -22,12 +22,7 @@
 		<div class="header-content-wrapper">
 
 			<?php
-      itcorp_site_logo(
-        array(
-          'logo_title' => 'RIOWEX',
-          'logo_sub_title' => 'web apps'
-        )
-      );
+      	itcorp_site_logo();
       ?>
 
       <div class="nav-wrapper">

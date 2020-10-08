@@ -12,6 +12,11 @@
   line-height: 1.3;
 }
 
+.bg-blue .stunning-header-title,
+.bg-primary-color .stunning-header-title {
+  color: $white-color;
+}
+
 .category-link {
   text-transform: uppercase;
   font-size: 14px;

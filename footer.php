@@ -30,13 +30,7 @@
 		<div class="row">
 			<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
 				<div class="widget w-info">
-					<div class="site-logo">
-						<a href="index.html" class="full-block"></a>
-						<div class="logo-text">
-							<div class="logo-title">RIOWEX</div>
-							<div class="logo-sub-title">web apps.</div>
-						</div>
-					</div>
+					<?php itcorp_footer_logo() ?>
 				</div>
 				<div class="widget w-nav">
 					<?php wp_nav_menu( array( 'theme_location' => 'footer_nav' ) ); ?>
