@@ -5,13 +5,13 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-				<h2>Get <span class="c-primary">in touch</span> with us!</h2>
+				<h2>Ready to move forward?</h2>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
-				<p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium
-					lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum.
+				<p>
+					Our clients get the best results when they have our team dedicated to their business for extended periods of time. This is why we are looking for ongoing collaboration where our professionals are like your team members who just happen to be remote. Ready to move forward?
 				</p>
 			</div>
 			<div class="col-lg-3 col-lg-offset-2 col-md-3 col-md-offset-2 col-sm-12 col-xs-12 align-right">
