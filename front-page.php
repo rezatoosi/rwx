@@ -368,6 +368,152 @@
 	</section>
 	<!-- ... end Services -->
 
+  <!-- Slider with vertical tabs -->
+	<section class="crumina-module crumina-module-slider slider-tabs-vertical-line">
+
+		<div class="swiper-container" data-show-items="1">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide bg-primary-color bg-5" data-mh="slide">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-4 col-lg-offset-1 col-md-5 col-md-offset-0 col-sm-12 col-xs-12">
+								<div class="slider-tabs-vertical-thumb">
+									<img src="<?php echo get_template_directory_uri(); ?>/img/iphone.png" alt="iphone">
+								</div>
+							</div>
+							<div class="col-lg-6 col-lg-offset-1 col-md-7 col-md-offset-0 col-sm-12 col-xs-12">
+								<div class="crumina-module crumina-heading custom-color c-white">
+									<h6 class="heading-sup-title">3 WAYS WE HELP YOU GROW FASTER: 01</h6>
+									<h2 class="heading-title">AdWords & Facebook Ads</h2>
+									<div class="heading-text">
+                    With over 2,500 AdWords and Facebook audits under our belts, we’ve learned what it takes for you to become an industry leader. Get your free 32-point audit to identify exactly what is and is not working in your campaigns today.
+									</div>
+								</div>
+
+								<a href="#" class="btn btn-market btn--with-shadow">
+									<svg class="utouch-icon utouch-icon-apple-logotype-1">
+										<use xlink:href="#utouch-icon-apple-logotype-1"></use>
+									</svg>
+									<div class="text">
+										<span class="sup-title">Download on the</span>
+										<span class="title">App Store</span>
+									</div>
+								</a>
+
+								<a href="#" class="btn btn-market btn--with-shadow">
+									<img class="utouch-icon" src="svg-icons/google-play.svg" alt="google">
+									<div class="text">
+										<span class="sup-title">Download on the</span>
+										<span class="title">Google Play</span>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="swiper-slide bg-orange-light bg-6" data-mh="slide">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-4 col-lg-offset-1 col-md-5 col-md-offset-0 col-sm-12 col-xs-12">
+								<div class="slider-tabs-vertical-thumb">
+									<img src="<?php echo get_template_directory_uri(); ?>/img/iphone2.png" alt="iphone">
+								</div>
+							</div>
+							<div class="col-lg-6 col-lg-offset-1 col-md-7 col-md-offset-0 col-sm-12 col-xs-12">
+								<div class="crumina-module crumina-heading custom-color c-white">
+									<h6 class="heading-sup-title">3 WAYS WE HELP YOU GROW FASTER: 02</h6>
+									<h2 class="heading-title">Site Experience Testing</h2>
+									<div class="heading-text">
+                    After testing over 100 million visitors, we’ve learned how to give your audience the experience they need in order to convert. On average, we improve conversion rates by over 50% for our clients in the first 6 months.
+									</div>
+								</div>
+
+								<a href="#" class="btn btn-market btn--with-shadow">
+									<svg class="utouch-icon utouch-icon-apple-logotype-1">
+										<use xlink:href="#utouch-icon-apple-logotype-1"></use>
+									</svg>
+									<div class="text">
+										<span class="sup-title">Download on the</span>
+										<span class="title">App Store</span>
+									</div>
+								</a>
+
+								<a href="#" class="btn btn-market btn--with-shadow">
+									<img class="utouch-icon" src="svg-icons/google-play.svg" alt="google">
+									<div class="text">
+										<span class="sup-title">Download on the</span>
+										<span class="title">Google Play</span>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="swiper-slide bg-red bg-7" data-mh="slide">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-4 col-lg-offset-1 col-md-5 col-md-offset-0 col-sm-12 col-xs-12">
+								<div class="slider-tabs-vertical-thumb">
+									<img src="<?php echo get_template_directory_uri(); ?>/img/iphone3.png" alt="iphone">
+								</div>
+							</div>
+							<div class="col-lg-6 col-lg-offset-1 col-md-7 col-md-offset-0 col-sm-12 col-xs-12">
+								<div class="crumina-module crumina-heading custom-color c-white">
+									<h6 class="heading-sup-title">3 WAYS WE HELP YOU GROW FASTER: 03</h6>
+									<h2 class="heading-title">Analytics Reporting</h2>
+									<div class="heading-text">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+										diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+										Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.
+										Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit
+										litterarum formas humanitatis per.
+									</div>
+								</div>
+
+								<a href="#" class="btn btn-market btn--with-shadow">
+									<svg class="utouch-icon utouch-icon-apple-logotype-1">
+										<use xlink:href="#utouch-icon-apple-logotype-1"></use>
+									</svg>
+									<div class="text">
+										<span class="sup-title">Download on the</span>
+										<span class="title">App Store</span>
+									</div>
+								</a>
+
+								<a href="#" class="btn btn-market btn--with-shadow">
+									<img class="utouch-icon" src="svg-icons/google-play.svg" alt="google">
+									<div class="text">
+										<span class="sup-title">Download on the</span>
+										<span class="title">Google Play</span>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="slider-slides slider-slides--vertical-line">
+				<a href="#" class="slides-item">
+					<span class="round primary"></span>01.
+				</a>
+
+				<a href="#" class="slides-item">
+					<span class="round orange"></span>02.
+				</a>
+
+				<a href="#" class="slides-item">
+					<span class="round red"></span>03.
+				</a>
+
+			</div>
+
+		</div>
+
+	</section>
+	<!-- ... Slider with vertical tabs -->
 
 	<!-- FAQS Slider -->
 	<section class="crumina-module crumina-module-slider pt100">
@@ -376,7 +522,7 @@
 				<div class="col-lg-6 col-md-6 col-sm-12 mb30">
 					<div class="crumina-module crumina-heading">
 						<h6 class="heading-sup-title">FAQ</h6>
-						<h2 class="heading-title">Six important questions on application</h2>
+						<h2 class="heading-title">Six important questions on our services</h2>
 					</div>
 				</div>
 			</div>
@@ -690,6 +836,177 @@
 	</section>
 	<!-- ... end FAQS Slider -->
 
+  <!-- Testimonials Slider -->
+	<section class="crumina-module crumina-module-slider navigation-center-both-sides medium-padding80 bg-blue-lighteen">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12">
+					<div class="swiper-container" data-show-items="3">
+						<div class="swiper-wrapper">
+
+							<div class="swiper-slide">
+
+								<div class="crumina-module crumina-testimonial-item testimonial-item-arrow">
+										<div class="author-info-wrap">
+											<div class="testimonial-img-author">
+												<img src="img/author2.png" alt="author">
+											</div>
+											<div class="author-info">
+												<a href="#" class="h6 author-name">Chris Miller</a>
+												<div class="author-company">Student, 23 years old</div>
+											</div>
+										</div>
+
+										<h6 class="testimonial-text">
+											Qest etiam processus dynamicus, qui sequitur mutationem.
+										</h6>
+
+										<ul class="rait-stars">
+											<li>
+												<a href="#">
+													<svg class="utouch-icon utouch-icon-star"><use xlink:href="#utouch-icon-star"></use></svg>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<svg class="utouch-icon utouch-icon-star"><use xlink:href="#utouch-icon-star"></use></svg>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<svg class="utouch-icon utouch-icon-star"><use xlink:href="#utouch-icon-star"></use></svg>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<svg class="utouch-icon utouch-icon-star"><use xlink:href="#utouch-icon-star"></use></svg>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<svg class="utouch-icon utouch-icon-star-half-empty"><use xlink:href="#utouch-icon-star-half-empty"></use></svg>
+												</a>
+											</li>
+										</ul>
+
+									</div>
+							</div>
+
+							<div class="swiper-slide">
+								<div class="crumina-module crumina-testimonial-item testimonial-item-arrow">
+										<div class="author-info-wrap">
+											<div class="testimonial-img-author">
+												<img src="img/author3.png" alt="author">
+											</div>
+											<div class="author-info">
+												<a href="#" class="h6 author-name">Susan Meyer</a>
+												<div class="author-company">Student, 20 years old</div>
+											</div>
+										</div>
+
+										<h6 class="testimonial-text">
+											Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius
+											per seacula quarta decima decima.
+										</h6>
+
+										<ul class="rait-stars">
+											<li>
+												<a href="#">
+													<svg class="utouch-icon utouch-icon-star"><use xlink:href="#utouch-icon-star"></use></svg>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<svg class="utouch-icon utouch-icon-star"><use xlink:href="#utouch-icon-star"></use></svg>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<svg class="utouch-icon utouch-icon-star"><use xlink:href="#utouch-icon-star"></use></svg>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<svg class="utouch-icon utouch-icon-star"><use xlink:href="#utouch-icon-star"></use></svg>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<svg class="utouch-icon utouch-icon-star"><use xlink:href="#utouch-icon-star"></use></svg>
+												</a>
+											</li>
+										</ul>
+
+									</div>
+							</div>
+
+							<div class="swiper-slide">
+								<div class="crumina-module crumina-testimonial-item testimonial-item-arrow">
+										<div class="author-info-wrap">
+											<div class="testimonial-img-author">
+												<img src="img/author4.png" alt="author">
+											</div>
+											<div class="author-info">
+												<a href="#" class="h6 author-name">Doe Simpson</a>
+												<div class="author-company">Student, 23 years old</div>
+											</div>
+										</div>
+
+										<h6 class="testimonial-text">
+											Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.
+										</h6>
+
+										<ul class="rait-stars">
+											<li>
+												<a href="#">
+													<svg class="utouch-icon utouch-icon-star"><use xlink:href="#utouch-icon-star"></use></svg>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<svg class="utouch-icon utouch-icon-star"><use xlink:href="#utouch-icon-star"></use></svg>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<svg class="utouch-icon utouch-icon-star"><use xlink:href="#utouch-icon-star"></use></svg>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<svg class="utouch-icon utouch-icon-star"><use xlink:href="#utouch-icon-star"></use></svg>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<svg class="utouch-icon utouch-icon-star-half-empty"><use xlink:href="#utouch-icon-star-half-empty"></use></svg>
+												</a>
+											</li>
+										</ul>
+
+									</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--Prev next buttons-->
+
+		<div class="btn-prev">
+			<svg class="utouch-icon icon-hover utouch-icon-arrow-left-1"><use xlink:href="#utouch-icon-arrow-left-1"></use></svg>
+			<svg class="utouch-icon utouch-icon-arrow-left1"><use xlink:href="#utouch-icon-arrow-left1"></use></svg>
+		</div>
+
+		<div class="btn-next">
+			<svg class="utouch-icon icon-hover utouch-icon-arrow-right-1"><use xlink:href="#utouch-icon-arrow-right-1"></use></svg>
+			<svg class="utouch-icon utouch-icon-arrow-right1"><use xlink:href="#utouch-icon-arrow-right1"></use></svg>
+		</div>
+	</section>
+	<!-- ... end Testimonials Slider -->
+
 	<!-- Subscribe Form -->
 	<section class="bg-primary-color background-contain bg-14 crumina-module crumina-module-subscribe-form">
 		<div class="container">
@@ -720,7 +1037,6 @@
 			</div>
 		</div>
 	</section>
-
 	<!-- End Subscribe Form -->
 
 <?php
