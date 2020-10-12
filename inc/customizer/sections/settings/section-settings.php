@@ -14,3 +14,4 @@ $wp_customize->add_panel(
 
 require get_template_directory() . '/inc/customizer/sections/settings/section-settings-header.php';
 require get_template_directory() . '/inc/customizer/sections/settings/section-settings-social.php';
+require get_template_directory() . '/inc/customizer/sections/settings/section-settings-footer.php';

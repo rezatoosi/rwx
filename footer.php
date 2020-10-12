@@ -58,10 +58,9 @@
 			<div class="col-lg-3 col-lg-offset-1 col-md-4 col-sm-12 col-sm-offset-0 col-xs-12">
 				<div class="widget w-contacts">
 
-					<h5 class="widget-title sr-only">Contact with us</h5>
 					<div class="contact-item display-flex">
-						<a href="tel:+989152271007">
-							<span class="info">Phone: +1 800 567.890.11</span>
+						<a href="<?php echo get_theme_mod( 'footer_btn_link' ); ?>">
+							<span class="info"><?php echo get_theme_mod( 'footer_btn_text' ); ?></span>
 						</a>
 					</div>
 
@@ -83,7 +82,7 @@
 			<div class="row">
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <span>
-                    Copyright © 2020 <a href="https://www.riowex.com" class="sub-footer__link">RIOWEX</a>. All rights reserved.
+										<?php echo get_theme_mod( 'footer_copyright' ); ?>
                 </span>
 				</div>
 			</div>
