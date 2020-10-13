@@ -519,7 +519,7 @@
 	<section class="crumina-module crumina-module-slider pt100">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-6 col-md-6 col-sm-12 mb30">
+				<div class="col-lg-12 col-md-12 col-sm-12 mb30">
 					<div class="crumina-module crumina-heading">
 						<h6 class="heading-sup-title">FAQ</h6>
 						<h2 class="heading-title">Six important questions on our services</h2>
@@ -546,76 +546,74 @@
 							<a href="#" class="slides-item">
 								4
 							</a>
-
-							<a href="#" class="slides-item">
+              <a href="#" class="slides-item">
 								5
 							</a>
 
-							<a href="#" class="slides-item">
-								6
-							</a>
 						</div>
 						<div class="swiper-wrapper">
 							<div class="swiper-slide">
-								<div class="col-lg-4 col-md-12 col-sm-12" data-swiper-parallax="-100">
-									<div class="slider-faqs-thumb">
-										<img class="utouch-icon" src="svg-icons/dial.svg" alt="image">
-									</div>
-								</div>
 
-								<div class="col-lg-8 col-md-12 col-sm-12" data-swiper-parallax="-300">
-									<h5 class="slider-faqs-title">soluta eleifend congue?</h5>
+
+								<div class="col-lg-12 col-md-12 col-sm-12" data-swiper-parallax="-300">
+									<h5 class="slider-faqs-title">What is your web design and development process?</h5>
 
 									<div class="row">
 										<div class="col-lg-6 col-md-6 col-sm-12">
-											<p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est
-												notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas
-												humanitatis.
+											<p>
+                        Process plays a major role in the design and development of a website and process can vary greatly from agency to agency. Every digital agency has developed their own internal process that guides their projects and some are better than others.
 											</p>
-											<p>Gest etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.</p>
+											<p>Knowing what the process is, how it gets implemented and how it will ultimately impact you and your project is helpful to understand.</p>
 										</div>
 										<div class="col-lg-6 col-md-6 col-sm-12">
-											<p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</p>
+											<p>It’s also important to know who will be involved in the project and what each person’s role will be.</p>
 											<ul class="list list--standard">
 												<li>
 													<svg class="utouch-icon utouch-icon-correct-symbol-1">
 														<use xlink:href="#utouch-icon-correct-symbol-1"></use>
 													</svg>
-													<a href="#">Gectores legere me lius quod</a>
+													<a href="#">Discovery</a>
 												</li>
 												<li>
 													<svg class="utouch-icon utouch-icon-correct-symbol-1">
 														<use xlink:href="#utouch-icon-correct-symbol-1"></use>
 													</svg>
-													<a href="#">Mirum est notare quam</a>
+													<a href="#">Design</a>
 												</li>
 												<li>
 													<svg class="utouch-icon utouch-icon-correct-symbol-1">
 														<use xlink:href="#utouch-icon-correct-symbol-1"></use>
 													</svg>
-													<a href="#">Zril delenit augue duis</a>
+													<a href="#">Developme</a>
 												</li>
 											</ul>
 										</div>
 									</div>
 								</div>
+
+                <!-- <div class="col-lg-4 col-md-12 col-sm-12" data-swiper-parallax="-100">
+									<div class="slider-faqs-thumb">
+										<img class="utouch-icon" src="<?php echo get_template_directory_uri(); ?>/svg-icons/dial.svg" alt="image">
+									</div>
+								</div> -->
 							</div>
 							<div class="swiper-slide">
-								<div class="col-lg-4 col-md-12 col-sm-12" data-swiper-parallax="-100">
+								<!-- <div class="col-lg-4 col-md-12 col-sm-12" data-swiper-parallax="-100">
 									<div class="slider-faqs-thumb">
 										<img class="utouch-icon" src="svg-icons/fingerprint.svg" alt="image">
 									</div>
-								</div>
+								</div> -->
 
-								<div class="col-lg-8 col-md-12 col-sm-12" data-swiper-parallax="-300">
-									<h5 class="slider-faqs-title">Mirum quam gothica?</h5>
-									<p>Ilaritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum
-										est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum
-										formas humanitatis. Gest etiam processus dynamicus, qui sequitur mutationem consuetudium
-										lectorum.
+								<div class="col-lg-12 col-md-12 col-sm-12" data-swiper-parallax="-300">
+									<h5 class="slider-faqs-title">How long will the project take?</h5>
+									<p>
+                    The length of a website project varies greatly depending on scope, complexity, schedule and both the client and web design partner’s ability to hit deadlines. Based on an understanding of your project needs, a potential web partner should be able to give you an estimate of how long a project like yours typically takes and provide a basic schedule for key project milestones.
 									</p>
+                  <p>
+                    They should also help you understand what factors can affect the schedule and where issues typically arise.
+                  </p>
 
-									<div class="row">
+									<!-- <div class="row">
 										<div class="col-lg-6 col-md-6 col-sm-12">
 											<ul class="list list--standard">
 												<li>
@@ -660,149 +658,112 @@
 												</li>
 											</ul>
 										</div>
-									</div>
+									</div> -->
 								</div>
 							</div>
 							<div class="swiper-slide">
-								<div class="col-lg-4 col-md-12 col-sm-12" data-swiper-parallax="-100">
+								<!-- <div class="col-lg-4 col-md-12 col-sm-12" data-swiper-parallax="-100">
 									<div class="slider-faqs-thumb">
 										<img class="utouch-icon" src="svg-icons/devices.svg" alt="image">
 									</div>
-								</div>
+								</div> -->
 
-								<div class="col-lg-8 col-md-8 col-sm-12" data-swiper-parallax="-100">
-									<h5 class="slider-faqs-title">Investigationes quod lectores?</h5>
-									<p>Gest etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Claritas est
-										etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare
-										quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas
-										humanitatis.
-									</p>
+                <div class="row">
+                  <div class="col-lg-12 col-md-12 col-sm-12" data-swiper-parallax="-100">
+  									<h5 class="slider-faqs-title">How much will my new web design cost?</h5>
 
-									<div class="row">
-										<div class="col-lg-6 col-md-6 col-sm-12">
-											<div class="crumina-module crumina-info-box info-box--standard">
-												<div class="info-box-image display-flex">
-													<svg class="utouch-icon utouch-icon-checked">
-														<use xlink:href="#utouch-icon-checked"></use>
-													</svg>
-													<h6 class="info-box-title">Quick Settings</h6>
-												</div>
-												<p class="info-box-text">Wisi enim ad minim veniam, quis nostrud exerci tation qui
-													nunc nobis videntur parum clari.
-												</p>
-											</div>
-										</div>
-										<div class="col-lg-6 col-md-6 col-sm-12">
-											<div class="crumina-module crumina-info-box info-box--standard">
-												<div class="info-box-image display-flex">
-													<svg class="utouch-icon utouch-icon-checked">
-														<use xlink:href="#utouch-icon-checked"></use>
-													</svg>
-													<h6 class="info-box-title">Looks Perfect</h6>
-												</div>
-												<p class="info-box-text">Sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.</p>
-											</div>
-										</div>
-									</div>
-								</div>
+                    <div class="row">
+                      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <p>
+                          Finally, one of the most important questions to ask your web designer: cost. The answer to this question will always vary. The cost of a website design usually depends on a number of factors, including:
+      									</p>
+                        <ul class="list list--standard">
+                          <li>
+                            <svg class="utouch-icon utouch-icon-correct-symbol-1">
+                              <use xlink:href="#utouch-icon-correct-symbol-1"></use>
+                            </svg>
+                            <a href="#">The designer’s experience</a>
+                          </li>
+                          <li>
+                            <svg class="utouch-icon utouch-icon-correct-symbol-1">
+                              <use xlink:href="#utouch-icon-correct-symbol-1"></use>
+                            </svg>
+                            <a href="#">The size of the site being designed</a>
+                          </li>
+                          <li>
+                            <svg class="utouch-icon utouch-icon-correct-symbol-1">
+                              <use xlink:href="#utouch-icon-correct-symbol-1"></use>
+                            </svg>
+                            <a href="#">The site’s functionality</a>
+                          </li>
+                          <li>
+                            <svg class="utouch-icon utouch-icon-correct-symbol-1">
+                              <use xlink:href="#utouch-icon-correct-symbol-1"></use>
+                            </svg>
+                            <a href="#">The type of design (modern, high-end, simple, responsive, etc.)</a>
+                          </li>
+                          <li>
+                            <svg class="utouch-icon utouch-icon-correct-symbol-1">
+                              <use xlink:href="#utouch-icon-correct-symbol-1"></use>
+                            </svg>
+                            <a href="#">How many people are involved in the process</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <p>
+                          Since many web design firms do not publish their pricing online, it is hard to shop around and know if you are getting a good deal. The only way to really be sure is to compare the pricing you are quoted against a site that does publish its pricing, or to trust your gut.
+                        </p>
+                        <p>
+                          You know better than anyone what you can and can’t afford, as far as a website design is concerned. So don’t be afraid to say “no,” or to ask for a lower price. You can even walk away if you don’t like the quote you’re given. But remember one thing: you get what you pay for, and a cheap website often has many downsides.
+                        </p>
+                      </div>
+                    </div>
+  								</div>
+                </div>
+
+
 							</div>
 							<div class="swiper-slide">
-								<div class="col-lg-4 col-md-12 col-sm-12" data-swiper-parallax="-100">
+								<!-- <div class="col-lg-4 col-md-12 col-sm-12" data-swiper-parallax="-100">
 									<div class="slider-faqs-thumb">
 										<img class="utouch-icon" src="svg-icons/payment-method.svg" alt="image">
 									</div>
-								</div>
+								</div> -->
 
-								<div class="col-lg-8 col-md-12 col-sm-12" data-swiper-parallax="-300">
-									<h5 class="slider-faqs-title">Duis autem vel eum iriure?</h5>
-									<p class="weight-bold">Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum
-										formas humanitatis. Gest etiam processus dynamicus, qui sequitur.
+								<div class="col-lg-12 col-md-12 col-sm-12" data-swiper-parallax="-300">
+									<h5 class="slider-faqs-title">Can I contact you for future updates to my design?</h5>
+									<p class="weight-bold">
+                    Finally, you should always check with the designer you want to work with to see if they would be willing to work with you in the future. If you want to update a page, add a new visual element, or even redesign your website, will they be able to help you?
 									</p>
-									<p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum
-										est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum
-										formas humanitatis. Gest etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.
+									<p>
+                    Most designers and web design companies have hourly pricing or contracts that allow you to establish long-term relationships at a lower cost. Consider signing up for one of these plans to save a little money while keeping a reliable designer on hand.
 									</p>
-									<a href="03_products.html" class="btn btn-border btn--with-shadow c-secondary">
+									<a href="#" class="btn btn-border btn--with-shadow c-secondary">
 										Learn More
 									</a>
 								</div>
 							</div>
-							<div class="swiper-slide">
-								<div class="col-lg-4 col-md-12 col-sm-12" data-swiper-parallax="-100">
+              <div class="swiper-slide">
+								<!-- <div class="col-lg-4 col-md-12 col-sm-12" data-swiper-parallax="-100">
 									<div class="slider-faqs-thumb">
-										<img class="utouch-icon" src="svg-icons/chat1.svg" alt="image">
+										<img class="utouch-icon" src="svg-icons/payment-method.svg" alt="image">
 									</div>
-								</div>
+								</div> -->
 
-								<div class="col-lg-8 col-md-12 col-sm-12" data-swiper-parallax="-300">
-									<h5 class="slider-faqs-title">wisi minim veniam, quis nostrud?</h5>
-
-									<div class="row">
-										<div class="col-lg-6 col-md-6 col-sm-12">
-											<p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium
-												lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram,
-												anteposuerit litterarum formas humanitatis.
-											</p>
-											<p>Gest etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.</p>
-										</div>
-										<div class="col-lg-6 col-md-6 col-sm-12">
-											<p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</p>
-											<div class="play-with-title">
-												<a href="https://www.youtube.com/watch?v=wnJ6LuUFpMo" class="video-control js-popup-iframe">
-													<img src="img/play.png" alt="play">
-												</a>
-												<h6 class="play-title">Watch the video of instruction</h6>
-											</div>
-										</div>
-									</div>
+								<div class="col-lg-12 col-md-12 col-sm-12" data-swiper-parallax="-300">
+									<h5 class="slider-faqs-title">Ask good questions, hire the right agency</h5>
+									<p>
+                    Determining who is best equipped to build your website, as well as choosing who you want to partner with on the project goes far beyond their mere capabilities and expertise. That’s where asking great questions and listening for great answers is key to the selection process.
+									</p>
+									<p class="weight-bold">
+                    If you still have questions please send us message
+									</p>
+									<a href="#" class="btn btn-border btn--with-shadow c-secondary">
+										Contact Us
+									</a>
 								</div>
 							</div>
-							<div class="swiper-slide">
-								<div class="col-lg-4 col-md-12 col-sm-12" data-swiper-parallax="-100">
-									<div class="slider-faqs-thumb">
-										<img class="utouch-icon" src="svg-icons/tap.svg" alt="image">
-									</div>
-								</div>
-
-								<div class="col-lg-8 col-md-12 col-sm-12" data-swiper-parallax="-300">
-									<h5 class="slider-faqs-title">Eodem typi nunc videntur?</h5>
-
-									<div class="row">
-										<div class="col-lg-6 col-md-6 col-sm-12">
-											<p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium
-												lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram,
-												anteposuerit litterarum formas humanitatis.
-											</p>
-											<p>Gest etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.</p>
-										</div>
-										<div class="col-lg-6 col-md-6 col-sm-12">
-											<p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</p>
-											<ul class="list list--standard">
-												<li>
-													<svg class="utouch-icon utouch-icon-correct-symbol-1">
-														<use xlink:href="#utouch-icon-correct-symbol-1"></use>
-													</svg>
-													<a href="#">Mirum est notare quam</a>
-												</li>
-												<li>
-													<svg class="utouch-icon utouch-icon-correct-symbol-1">
-														<use xlink:href="#utouch-icon-correct-symbol-1"></use>
-													</svg>
-													<a href="#">Zril delenit augue duis</a>
-												</li>
-												<li>
-													<svg class="utouch-icon utouch-icon-correct-symbol-1">
-														<use xlink:href="#utouch-icon-correct-symbol-1"></use>
-													</svg>
-													<a href="#">Gectores legere me lius quod</a>
-												</li>
-											</ul>
-										</div>
-									</div>
-								</div>
-
-							</div>
-
 						</div>
 
 						<!--Prev next buttons-->
