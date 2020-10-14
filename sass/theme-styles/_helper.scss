@@ -277,6 +277,30 @@
   padding-bottom: 30px;
 }
 
+.mt30 {
+  margin-top: 30px;
+
+  @media (max-width: 800px) {
+    margin-top: 25px;
+  }
+}
+
+.mt40 {
+  margin-top: 40px;
+
+  @media (max-width: 800px) {
+    margin-top: 25px;
+  }
+}
+
+.mt50 {
+  margin-top: 50px;
+
+  @media (max-width: 800px) {
+    margin-top: 35px;
+  }
+}
+
 .mt60 {
   margin-top: 60px;
 
@@ -397,6 +421,38 @@
   code {
     white-space: initial;
     line-height: 2;
+  }
+}
+
+/*------------- responsive helpers --------------*/
+.hidden-xxs {
+  @media (max-width:470px) {
+      display: none !important;
+      visibility: hidden !important;
+  }
+}
+.hidden-xs {
+  @media (min-width:471px) and (max-width: 768px) {
+      display: none !important;
+      visibility: hidden !important;
+  }
+}
+.hidden-sm {
+  @media (min-width:769px) and (max-width: 992px) {
+      display: none !important;
+      visibility: hidden !important;
+  }
+}
+.hidden-md {
+  @media (min-width:993px) and (max-width: 1200px) {
+      display: none !important;
+      visibility: hidden !important;
+  }
+}
+.hidden-lg {
+  @media (min-width:1201px) {
+      display: none !important;
+      visibility: hidden !important;
   }
 }
 

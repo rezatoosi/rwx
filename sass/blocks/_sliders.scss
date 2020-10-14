@@ -228,7 +228,15 @@
 
 .bg-00 {
   // background-image: linear-gradient(180deg, rgba(34, 14, 0, 0.2), rgba(34, 14, 0, 0.2)), url("../img/bg-01.jpg");
-  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.6)), url("../img/bg-01.jpg");
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.6)), url("../img/bg/bg-01.jpg");
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+}
+
+.bg-001 {
+  // background-image: linear-gradient(180deg, rgba(34, 14, 0, 0.2), rgba(34, 14, 0, 0.2)), url("../img/bg-01.jpg");
+  background-image: url("../img/bg/bg-004.png");
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
   background-repeat: repeat, no-repeat;

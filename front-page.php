@@ -12,152 +12,138 @@
 			<!-- Additional required wrapper -->
 			<div class="swiper-wrapper">
 				<!-- Slides -->
-				<div class="swiper-slide bg-00 main-slider-bg-light">
-
-					<div class="container">
-						<div class="row table-cell">
-
-							<div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-12 col-sm-offset-0 col-xs-12">
-
-								<div class="slider-content align-center">
-
-									<h1 class="slider-content-title with-decoration" data-swiper-parallax="-100">
-										We Create Exceptional Websites
-
-                    <?php itcorp_svg( 'utouch-icon-arrow-left', 'first-decoration utouch-icon utouch-icon-arrow-left' ) ?>
-
-                    <?php itcorp_svg( 'utouch-icon-arrow-left', 'second-decoration utouch-icon utouch-icon-arrow-left' ) ?>
-
-									</h1>
-									<h2 class="slider-content-text" data-swiper-parallax="-200">Lorem ipsum dolor sit
-										amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
-										laoreet dolore magna aliquam erat volutpat.
-									</h2>
-
-									<div class="main-slider-btn-wrap" data-swiper-parallax="-300">
-
-										<a href="03_products.html" class="btn btn--yellow btn--with-shadow">
-											Learn More
-										</a>
-
-										<a href="02_company.html" class="btn btn-border btn--with-shadow c-primary">
-											Get Started Now
-										</a>
-									</div>
-								</div>
-							</div>
-							<!-- <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-12 col-sm-offset-0 col-xs-12">
-								<div class="slider-thumb" data-swiper-parallax="-400" data-swiper-parallax-duration="600">
-									<img src="<?php echo get_template_directory_uri(); ?>/img/slides1.png" alt="slider">
-								</div>
-							</div> -->
-
-						</div>
-					</div>
-				</div>
-
-				<div class="swiper-slide bg-2 main-slider-bg-light">
-
-					<div class="container table">
-						<div class="row table-cell">
-
-							<div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
-								<div class="slider-content align-both">
+        <div class="swiper-slide main-slider-bg-light bg-001">
+          <div class="container table">
+						<div class="row">
+              <div class="col-lg-6 col-md-12 col-sm-12 table-cell">
+                <div class="slider-content align-both">
 									<h2 class="slider-content-title" data-swiper-parallax="-100">
-										<span class="c-primary">Utouch</span>
-										is quality product that will make your life better
+                    We Are
+										<span class="c-primary">IT Professionals </span>
+										And Provide High-Quality Serivces
 									</h2>
-									<h6 class="slider-content-text" data-swiper-parallax="-200">Lorem ipsum dolor sit amet,
-										consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore
-										magna aliquam erat volutpat.
+									<h6 class="slider-content-text hidden-md hidden-sm hidden-xs hidden-xxs" data-swiper-parallax="-200">
+                    We've been Designing Websites and Developing Web Applications for many years. We guarantee what we do to have your
+                    <span class="c-primary">Trust</span>
 									</h6>
 
-									<div class="main-slider-btn-wrap" data-swiper-parallax="-300">
-
-										<a href="#" class="btn btn-market btn--with-shadow">
-											<svg class="utouch-icon utouch-icon-apple-logotype-1">
-												<use xlink:href="#utouch-icon-apple-logotype-1"></use>
-											</svg>
-											<div class="text">
-												<span class="sup-title">Download on the</span>
-												<span class="title">App Store</span>
+                  <div class="row" data-swiper-parallax="-300">
+										<div class="col-lg-6 col-md-6 col-sm-12">
+											<div class="crumina-module crumina-info-box info-box--standard">
+												<div class="info-box-image display-flex">
+                          <?php itcorp_svg( 'utouch-icon-checked' ); ?>
+													<h6 class="info-box-title">Quality Guarantee</h6>
+												</div>
+                        <p class="info-box-text hidden-sm hidden-xs hidden-xxs">
+                          We guarantee your satisfaction about our works quality
+												</p>
 											</div>
-										</a>
-
-										<a href="#" class="btn btn-market btn--with-shadow">
-											<img class="utouch-icon" src="svg-icons/google-play.svg" alt="google">
-											<div class="text">
-												<span class="sup-title">Download on the</span>
-												<span class="title">Google Play</span>
+										</div>
+										<div class="col-lg-6 col-md-6 col-sm-12">
+											<div class="crumina-module crumina-info-box info-box--standard">
+												<div class="info-box-image display-flex">
+													<?php itcorp_svg( 'utouch-icon-checked' ); ?>
+													<h6 class="info-box-title">Money-back Guarantee</h6>
+												</div>
+                        <p class="info-box-text hidden-sm hidden-xs hidden-xxs">
+                          You can get your money back in 30 days
+												</p>
 											</div>
-										</a>
-
+										</div>
 									</div>
 
-								</div>
-							</div>
-
-						</div>
-					</div>
-				</div>
-				<div class="swiper-slide thumb-left bg-3 main-slider-bg-light">
-
-					<div class="container table full-height">
-						<div class="row table-cell">
-							<div class="col-lg-6 col-sm-12 table-cell">
-
-								<div class="slider-content align-both">
-
-									<h2 class="slider-content-title" data-swiper-parallax="-100">Rise Up With the Most Interesting App</h2>
-
-									<h6 class="slider-content-text" data-swiper-parallax="-200">Lorem ipsum dolor sit amet,
-										consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
-										dolore magna aliquam erat volutpat.
-									</h6>
-
-									<div class="main-slider-btn-wrap" data-swiper-parallax="-300">
-
-										<a href="02_company.html" class="btn btn--lime btn--with-shadow">
+                  <div class="main-slider-btn-wrap mt30 hidden-xxs" data-swiper-parallax="-400">
+										<a href="/contact" class="btn btn-border btn--with-shadow c-primary">
 											Get Started Now
 										</a>
-
 									</div>
 
 								</div>
-
-							</div>
-
-							<div class="col-lg-6 col-sm-12 table-cell">
-								<div class="slider-thumb" data-swiper-parallax="-300" data-swiper-parallax-duration="500">
-									<img src="<?php echo get_template_directory_uri(); ?>/img/slides2.png" alt="slider">
+              </div>
+              <div class="col-lg-6 hidden-md hidden-sm hidden-xs hidden-xxs table-cell">
+                <div class="slider-thumb" data-swiper-parallax="-300" data-swiper-parallax-duration="500">
+									<img src="<?php echo get_template_directory_uri(); ?>/img/iconic/webdesign-guarantee.png" alt="slider">
 								</div>
-							</div>
+              </div>
+            </div>
+          </div>
+        </div>
 
-						</div>
-					</div>
-				</div>
-			</div>
+        <div class="swiper-slide main-slider-bg-light bg-00">
+          <div class="container table">
+						<div class="row">
+              <div class="col-lg-6 col-md-12 col-sm-12 table-cell">
+                <div class="slider-content align-both">
+									<h2 class="slider-content-title" data-swiper-parallax="-100">
+                    We Provide Wide Range Of
+										<span class="c-green">Top Rated Services </span>
+										You Need To Grow Your Business
+									</h2>
+									<h6 class="slider-content-text hidden-md hidden-sm hidden-xs hidden-xxs" data-swiper-parallax="-200">
+                    We merge imagination and technology to help brands grow in an age of digital transformation
+									</h6>
+
+                  <div class="row" data-swiper-parallax="-300">
+										<div class="col-lg-6 col-md-6 col-sm-12">
+                      <ul class="list list--standard">
+												<li>
+													<svg class="utouch-icon utouch-icon-correct-symbol-1">
+														<use xlink:href="#utouch-icon-correct-symbol-1"></use>
+													</svg>
+													<a href="#">Website Design</a>
+												</li>
+												<li>
+													<svg class="utouch-icon utouch-icon-correct-symbol-1">
+														<use xlink:href="#utouch-icon-correct-symbol-1"></use>
+													</svg>
+													<a href="#">Web Development</a>
+												</li>
+											</ul>
+										</div>
+										<div class="col-lg-6 col-md-6 col-sm-12">
+                      <ul class="list list--standard">
+												<li>
+													<svg class="utouch-icon utouch-icon-correct-symbol-1">
+														<use xlink:href="#utouch-icon-correct-symbol-1"></use>
+													</svg>
+													<a href="#">Digital Marketing</a>
+												</li>
+												<li>
+													<svg class="utouch-icon utouch-icon-correct-symbol-1">
+														<use xlink:href="#utouch-icon-correct-symbol-1"></use>
+													</svg>
+													<a href="#">SEO</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+
+                  <div class="main-slider-btn-wrap mt30 hidden-xxs" data-swiper-parallax="-400">
+										<a href="/contact" class="btn btn-border btn--with-shadow c-green">
+											Visit Our Services
+										</a>
+									</div>
+
+								</div>
+              </div>
+              <div class="col-lg-6 hidden-md hidden-sm hidden-xs hidden-xxs table-cell">
+                <div class="slider-thumb" data-swiper-parallax="-300" data-swiper-parallax-duration="500">
+									<img src="<?php echo get_template_directory_uri(); ?>/img/iconic/03.png" alt="slider">
+								</div>
+              </div>
+            </div>
+          </div>
+        </div>
 
 			<!--Prev next buttons-->
-
 			<div class="btn-prev with-bg">
-				<svg class="utouch-icon icon-hover utouch-icon-arrow-left-1">
-					<use xlink:href="#utouch-icon-arrow-left-1"></use>
-				</svg>
-				<svg class="utouch-icon utouch-icon-arrow-left1">
-					<use xlink:href="#utouch-icon-arrow-left1"></use>
-				</svg>
+        <?php itcorp_svg( 'utouch-icon-arrow-left-1', 'utouch-icon icon-hover utouch-icon-arrow-left-1' ); ?>
+        <?php itcorp_svg( 'utouch-icon-arrow-left1' ); ?>
 			</div>
-
 			<div class="btn-next with-bg">
-				<svg class="utouch-icon icon-hover utouch-icon-arrow-right-1">
-					<use xlink:href="#utouch-icon-arrow-right-1"></use>
-				</svg>
-				<svg class="utouch-icon utouch-icon-arrow-right1">
-					<use xlink:href="#utouch-icon-arrow-right1"></use>
-				</svg>
+        <?php itcorp_svg( 'utouch-icon-arrow-right-1', 'utouch-icon icon-hover utouch-icon-arrow-right-1' ); ?>
+        <?php itcorp_svg( 'utouch-icon-arrow-right1' ); ?>
 			</div>
-
 		</div>
 	</div>
 	<!-- ... end Main Slider -->
@@ -172,7 +158,6 @@
 						<h3 class="h5 info-box-title">Who We Are</h3>
 						<p class="info-box-text">
               We are RIOWEX, a full service digital agency based on istanbul - turkey.
-              our sole objective is to help our clients create exceptional digital assets that attract and engage.
 						</p>
 					</div>
 				</div>
@@ -182,8 +167,7 @@
 						<h5 class="order-number">02.</h5>
 						<h3 class="h5 info-box-title">What We Do</h3>
 						<p class="info-box-text">
-              We combine modern design and latest methods, and try to boost brands that differentiate you in the
-              industry and help grow your business.
+              our sole objective is to help our clients create exceptional digital assets that attract and engage.
 						</p>
 					</div>
 				</div>
@@ -221,7 +205,7 @@
 					<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
 						<div class="crumina-module crumina-service-item" data-mh="services">
 							<div class="service-thumb">
-								<img src="<?php echo get_template_directory_uri(); ?>/svg-icons/rocket.svg" alt="rocket" class="icon-img">
+								<img src="<?php echo get_template_directory_uri(); ?>/img/svg/webdesign.svg" alt="webdesign" class="icon-img">
 								<img class="cloud" src="<?php echo get_template_directory_uri(); ?>/img/clouds8.png" alt="cloud">
 							</div>
 
@@ -245,7 +229,7 @@
           <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
 						<div class="crumina-module crumina-service-item" data-mh="services">
 							<div class="service-thumb">
-								<img src="<?php echo get_template_directory_uri(); ?>/svg-icons/rocket.svg" alt="rocket" class="icon-img">
+								<img src="<?php echo get_template_directory_uri(); ?>/img/svg/development.svg" alt="web development and mobile app development" class="icon-img">
 								<img class="cloud" src="<?php echo get_template_directory_uri(); ?>/img/clouds8.png" alt="cloud">
 							</div>
 
@@ -269,7 +253,7 @@
           <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
 						<div class="crumina-module crumina-service-item" data-mh="services">
 							<div class="service-thumb">
-								<img src="<?php echo get_template_directory_uri(); ?>/svg-icons/rocket.svg" alt="rocket" class="icon-img">
+								<img src="<?php echo get_template_directory_uri(); ?>/img/svg/ecommerce.svg" alt="e-commerce and online shop" class="icon-img">
 								<img class="cloud" src="<?php echo get_template_directory_uri(); ?>/img/clouds8.png" alt="cloud">
 							</div>
 
@@ -293,7 +277,7 @@
           <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
 						<div class="crumina-module crumina-service-item" data-mh="services">
 							<div class="service-thumb">
-								<img src="<?php echo get_template_directory_uri(); ?>/svg-icons/rocket.svg" alt="rocket" class="icon-img">
+								<img src="<?php echo get_template_directory_uri(); ?>/img/svg/digital-marketing-2.svg" alt="Digital Marketing" class="icon-img">
 								<img class="cloud" src="<?php echo get_template_directory_uri(); ?>/img/clouds8.png" alt="cloud">
 							</div>
 
@@ -317,7 +301,7 @@
           <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
 						<div class="crumina-module crumina-service-item" data-mh="services">
 							<div class="service-thumb">
-								<img src="<?php echo get_template_directory_uri(); ?>/svg-icons/rocket.svg" alt="rocket" class="icon-img">
+								<img src="<?php echo get_template_directory_uri(); ?>/img/svg/seo.svg" alt="SEO Marketing" class="icon-img">
 								<img class="cloud" src="<?php echo get_template_directory_uri(); ?>/img/clouds8.png" alt="cloud">
 							</div>
 
@@ -341,7 +325,7 @@
           <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
 						<div class="crumina-module crumina-service-item" data-mh="services">
 							<div class="service-thumb">
-								<img src="<?php echo get_template_directory_uri(); ?>/svg-icons/rocket.svg" alt="rocket" class="icon-img">
+								<img src="<?php echo get_template_directory_uri(); ?>/img/svg/wordpress.svg" alt="Wordpress CMS Development" class="icon-img">
 								<img class="cloud" src="<?php echo get_template_directory_uri(); ?>/img/clouds8.png" alt="cloud">
 							</div>
 
