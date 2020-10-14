@@ -121,3 +121,39 @@ function itcorp_page_header_section( $args = array() ) {
   // echo digicorp_breadcrumb();
 
 }
+
+function itcorp_services_heading_section( $args ) {
+  $html = '
+  <section class="bg-primary-color pt100 pb100">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+          <div class="crumina-module crumina-heading custom-color c-white">
+  					<h6 class="heading-sup-title">
+              <a href="%1$s">%2$s</a>
+            </h6>
+  					<h2 class="h1 heading-title">
+              %3$s
+            </h2>
+  					<div class="heading-text">
+              %4$s
+            </div>
+  				</div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+          <img src="%5$s" alt="%6$s">
+        </div>
+      </div>
+    </div>
+  </section>
+  ';
+  printf(
+    $html,
+    $args[ 'link' ],
+    $args[ 'subtitle' ],
+    $args[ 'title' ],
+    $args[ 'text' ],
+    $args[ 'img' ],
+    $args[ 'img-alt' ]
+  );
+}

@@ -62,7 +62,7 @@
               </div>
               <div class="col-lg-6 hidden-md hidden-sm hidden-xs hidden-xxs table-cell">
                 <div class="slider-thumb" data-swiper-parallax="-300" data-swiper-parallax-duration="500">
-									<img src="<?php echo get_template_directory_uri(); ?>/img/iconic/webdesign-guarantee.png" alt="slider">
+									<img src="<?php echo get_template_directory_uri(); ?>/img/iconic/webdesign-guarantee.png" alt="service guarantee">
 								</div>
               </div>
             </div>
