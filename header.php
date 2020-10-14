@@ -17,7 +17,7 @@
 
 
 <!-- Header -->
-<header class="header nolines noshadow" id="site-header">
+<header class="header nolines" id="site-header">
 	<div class="container-fluid">
 		<div class="header-content-wrapper">
 

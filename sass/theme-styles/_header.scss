@@ -1,5 +1,6 @@
 /*------------- #HEADER --------------*/
 
+$header-shadow: 15px 0 25px 0 rgba(200,219,239, 0.4) !default;
 
 .header {
   // background: $white-color;
@@ -11,7 +12,7 @@
   left: 0;
   color: #839dbc;
   transition: all .3s ease;
-  box-shadow: 15px 0 25px 0 rgba(200,219,239, 0.3);
+  box-shadow: $header-shadow;
   padding-top: 6px;
 
   &.noshadow {
@@ -125,13 +126,17 @@
   &.sticky,
   &.slideDown:not(.headroom--top) {
     background-color: #fff;
+    box-shadow: $header-shadow;
+
     &.header-padding, .site-logo{
       padding-top: 10px;
       padding-bottom: 10px;
     }
   }
+}
 
-
+body.home .header:not(.sticky) {
+  box-shadow: none;
 }
 
 .header-content-wrapper {
