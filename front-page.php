@@ -212,7 +212,9 @@
 							<div class="main-service-content">
 								<a href="#" class="h5 service-title">Web Design</a>
 
-								<p class="service-description">Mirum est notare quam littera gothica, quam nunc putamus parum legere me lius.</p>
+								<p class="service-description">
+                  Create unique modern designs for your website using latest methods
+                </p>
 
 								<a href="#" class="more-arrow">
 									<span>Learn More</span>
@@ -236,7 +238,9 @@
 							<div class="main-service-content">
 								<a href="#" class="h5 service-title">Development</a>
 
-								<p class="service-description">Mirum est notare quam littera gothica, quam nunc putamus parum legere me lius.</p>
+								<p class="service-description">
+                  Create custom web or mobile applications to solve certain problems in your business
+                </p>
 
 								<a href="#" class="more-arrow">
 									<span>Learn More</span>
@@ -260,7 +264,9 @@
 							<div class="main-service-content">
 								<a href="#" class="h5 service-title">e-Commerce</a>
 
-								<p class="service-description">Mirum est notare quam littera gothica, quam nunc putamus parum legere me lius.</p>
+								<p class="service-description">
+                  Create online stores that are designed to convert website traffic to sales
+                </p>
 
 								<a href="#" class="more-arrow">
 									<span>Learn More</span>
@@ -284,7 +290,9 @@
 							<div class="main-service-content">
 								<a href="#" class="h5 service-title">Digital Marketing</a>
 
-								<p class="service-description">Mirum est notare quam littera gothica, quam nunc putamus parum legere me lius.</p>
+								<p class="service-description">
+                  Social media, PPC and other methods that help you achieve marketing goals
+                </p>
 
 								<a href="#" class="more-arrow">
 									<span>Learn More</span>
@@ -308,7 +316,9 @@
 							<div class="main-service-content">
 								<a href="#" class="h5 service-title">SEO Marketing</a>
 
-								<p class="service-description">Mirum est notare quam littera gothica, quam nunc putamus parum legere me lius.</p>
+								<p class="service-description">
+                  Search engine optimization can drive lots of target visitors to your website
+                </p>
 
 								<a href="#" class="more-arrow">
 									<span>Learn More</span>
@@ -332,7 +342,9 @@
 							<div class="main-service-content">
 								<a href="#" class="h5 service-title">Wordpress</a>
 
-								<p class="service-description">Mirum est notare quam littera gothica, quam nunc putamus parum legere me lius.</p>
+								<p class="service-description">
+                  Most popular CMS, a powerfull interface that helps manage websites easily
+                </p>
 
 								<a href="#" class="more-arrow">
 									<span>Learn More</span>
