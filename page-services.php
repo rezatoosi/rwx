@@ -25,7 +25,9 @@
 		</div>
 	</div>
 </section>
-
+<!-- Services -->
+<?php require get_template_directory() . '/page-templates/services.php'; ?>
+<!-- ... end Services -->
 
 <?php
 get_footer();
