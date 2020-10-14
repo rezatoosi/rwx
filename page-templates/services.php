@@ -20,13 +20,13 @@
             </div>
 
             <div class="main-service-content">
-              <a href="#" class="h5 service-title">Web Design</a>
+              <a href="/webdesign" class="h5 service-title">Web Design</a>
 
               <p class="service-description">
                 Create unique modern designs for your website using latest methods
               </p>
 
-              <a href="#" class="more-arrow">
+              <a href="/webdesign" class="more-arrow">
                 <span>Learn More</span>
                 <div class="btn-next">
                   <?php itcorp_svg( 'utouch-icon-arrow-right-1', 'utouch-icon icon-hover utouch-icon-arrow-right-1' ); ?>
@@ -98,13 +98,13 @@
             </div>
 
             <div class="main-service-content">
-              <a href="#" class="h5 service-title">Digital Marketing</a>
+              <a href="/digital-marketing" class="h5 service-title">Digital Marketing</a>
 
               <p class="service-description">
                 Social media, PPC and other methods that help you achieve marketing goals
               </p>
 
-              <a href="#" class="more-arrow">
+              <a href="/digital-marketing" class="more-arrow">
                 <span>Learn More</span>
                 <div class="btn-next">
                   <?php itcorp_svg( 'utouch-icon-arrow-right-1', 'utouch-icon icon-hover utouch-icon-arrow-right-1' ); ?>
