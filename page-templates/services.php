@@ -46,13 +46,13 @@
             </div>
 
             <div class="main-service-content">
-              <a href="#" class="h5 service-title">Development</a>
+              <a href="/development" class="h5 service-title">Development</a>
 
               <p class="service-description">
                 Create custom web or mobile applications to solve certain problems in your business
               </p>
 
-              <a href="#" class="more-arrow">
+              <a href="/development" class="more-arrow">
                 <span>Learn More</span>
                 <div class="btn-next">
                   <?php itcorp_svg( 'utouch-icon-arrow-right-1', 'utouch-icon icon-hover utouch-icon-arrow-right-1' ); ?>
@@ -72,13 +72,13 @@
             </div>
 
             <div class="main-service-content">
-              <a href="#" class="h5 service-title">e-Commerce</a>
+              <a href="/ecommerce" class="h5 service-title">e-Commerce</a>
 
               <p class="service-description">
                 Create online stores that are designed to convert website traffic to sales
               </p>
 
-              <a href="#" class="more-arrow">
+              <a href="/ecommerce" class="more-arrow">
                 <span>Learn More</span>
                 <div class="btn-next">
                   <?php itcorp_svg( 'utouch-icon-arrow-right-1', 'utouch-icon icon-hover utouch-icon-arrow-right-1' ); ?>
@@ -124,13 +124,13 @@
             </div>
 
             <div class="main-service-content">
-              <a href="#" class="h5 service-title">SEO Marketing</a>
+              <a href="/seo" class="h5 service-title">SEO Marketing</a>
 
               <p class="service-description">
                 Search engine optimization can drive lots of target visitors to your website
               </p>
 
-              <a href="#" class="more-arrow">
+              <a href="/seo" class="more-arrow">
                 <span>Learn More</span>
                 <div class="btn-next">
                   <?php itcorp_svg( 'utouch-icon-arrow-right-1', 'utouch-icon icon-hover utouch-icon-arrow-right-1' ); ?>
@@ -150,13 +150,13 @@
             </div>
 
             <div class="main-service-content">
-              <a href="#" class="h5 service-title">Wordpress</a>
+              <a href="/wordpress" class="h5 service-title">Wordpress</a>
 
               <p class="service-description">
                 Most popular CMS, a powerfull interface that helps manage websites easily
               </p>
 
-              <a href="#" class="more-arrow">
+              <a href="/wordpress" class="more-arrow">
                 <span>Learn More</span>
                 <div class="btn-next">
                   <?php itcorp_svg( 'utouch-icon-arrow-right-1', 'utouch-icon icon-hover utouch-icon-arrow-right-1' ); ?>
