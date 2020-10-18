@@ -58,7 +58,7 @@
 	</div>
 
 	<div class="sub-footer">
-		<a class="back-to-top" href="#">
+		<a class="back-to-top" href="javascript:void(0)">
 			<?php itcorp_svg( 'utouch-icon-arrow-top' ); ?>
 		</a>
 		<div class="container">

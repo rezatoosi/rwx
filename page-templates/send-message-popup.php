@@ -1,6 +1,6 @@
 <!-- Send Message Popup -->
 <div class="window-popup message-popup">
-	<a href="#" class="popup-close js-popup-close cd-nav-trigger">
+	<a href="javascript:void(0)" class="popup-close js-popup-close cd-nav-trigger">
 		<?php itcorp_svg( 'utouch-icon-cancel-1' ); ?>
 	</a>
 
