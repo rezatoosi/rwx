@@ -123,11 +123,22 @@ function itcorp_page_header_section( $args = array() ) {
 }
 
 function itcorp_services_heading_section( $args ) {
+  $defaults = array(
+    'back-link' =>  '/services',
+    'subtitle'  =>  'Top Rated Digital Services',
+    'title'     =>  'Service Title',
+    'text'      =>  'Service Text',
+    'img'       =>  '',
+    'img-alt'   =>  '',
+    'img-class' =>  ''
+  );
+  $args = wp_parse_args( $args, $defaults );
+
   $html = '
   <section class="bg-primary-color pt100 pb100">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
           <div class="crumina-module crumina-heading custom-color c-white">
   					<h6 class="heading-sup-title">
               <a href="%1$s">%2$s</a>
@@ -135,13 +146,21 @@ function itcorp_services_heading_section( $args ) {
   					<h2 class="h1 heading-title">
               %3$s
             </h2>
-  					<div class="heading-text">
+  					<div class="heading-text h5">
               %4$s
+            </div>
+            <div class="heading-buttons">
+              <a href="%1$s" class="btn btn-border c-white">
+                %8$s
+              </a>
+              <a href="#" class="btn btn-border c-white">
+                Get a free proposal
+              </a>
             </div>
   				</div>
         </div>
-        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-          <img src="%5$s" alt="%6$s">
+        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+          <img src="%5$s" alt="%6$s" class="%7$s">
         </div>
       </div>
     </div>
@@ -149,11 +168,13 @@ function itcorp_services_heading_section( $args ) {
   ';
   printf(
     $html,
-    $args[ 'link' ],
+    $args[ 'back-link' ],
     $args[ 'subtitle' ],
     $args[ 'title' ],
     $args[ 'text' ],
     $args[ 'img' ],
-    $args[ 'img-alt' ]
+    $args[ 'img-alt' ],
+    $args[ 'img-class' ],
+    itcorp_svg( 'utouch-icon-arrow-left-1', '', '', false ) . 'Back to services'
   );
 }
