@@ -567,9 +567,15 @@ var CRUMINA = {};
 		return false;
 	});
 
+	jQuery(".js-proposal-popup").on('click', function () {
+		setTimeout(function() {  $('.proposal-popup').addClass('open'); }, 300);
+		return false;
+	});
+
 	jQuery(".js-popup-close").on('click', function () {
 		{  $('.search-popup').removeClass('open'); }
 		{  $('.message-popup').removeClass('open'); }
+		{  $('.proposal-popup').removeClass('open'); }
 		{  $('.popup-gallery').removeClass('open'); }
 		return false;
 	});

@@ -7,145 +7,138 @@
 ?>
 	<!-- Main Slider -->
 	<div class="crumina-module crumina-module-slider container-full-width">
-		<div class="swiper-container main-slider navigation-center-both-sides" data-effect="fade">
+  		<div class="swiper-container main-slider navigation-center-both-sides" data-effect="fade">
 
-			<!-- Additional required wrapper -->
-			<div class="swiper-wrapper">
-				<!-- Slides -->
-        <div class="swiper-slide main-slider-bg-light bg-001">
-          <div class="container table">
-						<div class="row">
-              <div class="col-lg-6 col-md-12 col-sm-12 table-cell">
-                <div class="slider-content align-both">
-									<h2 class="slider-content-title" data-swiper-parallax="-100">
-                    We Are
-										<span class="c-primary">IT Professionals </span>
-										And Provide High-Quality Serivces
-									</h2>
-									<h6 class="slider-content-text hidden-md hidden-sm hidden-xs hidden-xxs" data-swiper-parallax="-200">
-                    We've been Designing Websites and Developing Web Applications for many years. We guarantee what we do to have your
-                    <span class="c-primary">Trust</span>
-									</h6>
+  			<!-- Additional required wrapper -->
+  			<div class="swiper-wrapper">
+  				<!-- Slides -->
+          <div class="swiper-slide main-slider-bg-light bg-001">
+            <div class="container table">
+  						<div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12 table-cell">
+                  <div class="slider-content align-both">
+  									<h2 class="slider-content-title" data-swiper-parallax="-100">
+                      We Are
+  										<span class="c-primary">IT Professionals </span>
+  										And Provide High-Quality Serivces
+  									</h2>
+  									<h6 class="slider-content-text hidden-md hidden-sm hidden-xs hidden-xxs" data-swiper-parallax="-200">
+                      We've been Designing Websites and Developing Web Applications for many years. We guarantee what we do to have your
+                      <span class="c-primary">Trust</span>
+  									</h6>
 
-                  <div class="row" data-swiper-parallax="-300">
-										<div class="col-lg-6 col-md-6 col-sm-12">
-											<div class="crumina-module crumina-info-box info-box--standard">
-												<div class="info-box-image display-flex">
-                          <?php itcorp_svg( 'utouch-icon-checked' ); ?>
-													<h6 class="info-box-title">Quality Guarantee</h6>
-												</div>
-                        <p class="info-box-text hidden-sm hidden-xs hidden-xxs">
-                          We guarantee your satisfaction about our works quality
-												</p>
-											</div>
-										</div>
-										<div class="col-lg-6 col-md-6 col-sm-12">
-											<div class="crumina-module crumina-info-box info-box--standard">
-												<div class="info-box-image display-flex">
-													<?php itcorp_svg( 'utouch-icon-checked' ); ?>
-													<h6 class="info-box-title">Money-back Guarantee</h6>
-												</div>
-                        <p class="info-box-text hidden-sm hidden-xs hidden-xxs">
-                          You can get your money back in 30 days
-												</p>
-											</div>
-										</div>
-									</div>
+                    <div class="row" data-swiper-parallax="-300">
+  										<div class="col-lg-6 col-md-6 col-sm-12">
+  											<div class="crumina-module crumina-info-box info-box--standard">
+  												<div class="info-box-image display-flex">
+                            <?php itcorp_svg( 'utouch-icon-checked' ); ?>
+  													<h6 class="info-box-title">Quality Guarantee</h6>
+  												</div>
+                          <p class="info-box-text hidden-sm hidden-xs hidden-xxs">
+                            We guarantee your satisfaction about our works quality
+  												</p>
+  											</div>
+  										</div>
+  										<div class="col-lg-6 col-md-6 col-sm-12">
+  											<div class="crumina-module crumina-info-box info-box--standard">
+  												<div class="info-box-image display-flex">
+  													<?php itcorp_svg( 'utouch-icon-checked' ); ?>
+  													<h6 class="info-box-title">Money-back Guarantee</h6>
+  												</div>
+                          <p class="info-box-text hidden-sm hidden-xs hidden-xxs">
+                            You can get your money back in 30 days
+  												</p>
+  											</div>
+  										</div>
+  									</div>
 
-                  <div class="main-slider-btn-wrap mt30 hidden-xxs" data-swiper-parallax="-400">
-										<a href="/contact" class="btn btn-border btn--with-shadow c-primary">
-											Get Started Now
-										</a>
-									</div>
+                    <div class="main-slider-btn-wrap mt30 hidden-xxs" data-swiper-parallax="-400">
+  										<a href="/contact" class="btn btn-border btn--with-shadow c-primary">
+  											Get Started Now
+  										</a>
+  									</div>
 
-								</div>
-              </div>
-              <div class="col-lg-6 hidden-md hidden-sm hidden-xs hidden-xxs table-cell">
-                <div class="slider-thumb" data-swiper-parallax="-300" data-swiper-parallax-duration="500">
-									<img src="<?php echo get_template_directory_uri(); ?>/img/iconic/webdesign-guarantee.png" alt="service guarantee">
-								</div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="swiper-slide main-slider-bg-light bg-00">
-          <div class="container table">
-						<div class="row">
-              <div class="col-lg-6 col-md-12 col-sm-12 table-cell">
-                <div class="slider-content align-both">
-									<h2 class="slider-content-title" data-swiper-parallax="-100">
-                    We Provide Wide Range Of
-										<span class="c-green">Top Rated Services </span>
-										You Need To Grow Your Business
-									</h2>
-									<h6 class="slider-content-text hidden-md hidden-sm hidden-xs hidden-xxs" data-swiper-parallax="-200">
-                    We merge imagination and technology to help brands grow in an age of digital transformation
-									</h6>
-
-                  <div class="row" data-swiper-parallax="-300">
-										<div class="col-lg-6 col-md-6 col-sm-12">
-                      <ul class="list list--standard">
-												<li>
-													<svg class="utouch-icon utouch-icon-correct-symbol-1">
-														<use xlink:href="#utouch-icon-correct-symbol-1"></use>
-													</svg>
-													<a href="#">Website Design</a>
-												</li>
-												<li>
-													<svg class="utouch-icon utouch-icon-correct-symbol-1">
-														<use xlink:href="#utouch-icon-correct-symbol-1"></use>
-													</svg>
-													<a href="#">Web Development</a>
-												</li>
-											</ul>
-										</div>
-										<div class="col-lg-6 col-md-6 col-sm-12">
-                      <ul class="list list--standard">
-												<li>
-													<svg class="utouch-icon utouch-icon-correct-symbol-1">
-														<use xlink:href="#utouch-icon-correct-symbol-1"></use>
-													</svg>
-													<a href="#">Digital Marketing</a>
-												</li>
-												<li>
-													<svg class="utouch-icon utouch-icon-correct-symbol-1">
-														<use xlink:href="#utouch-icon-correct-symbol-1"></use>
-													</svg>
-													<a href="#">SEO</a>
-												</li>
-											</ul>
-										</div>
-									</div>
-
-                  <div class="main-slider-btn-wrap mt30 hidden-xxs" data-swiper-parallax="-400">
-										<a href="/contact" class="btn btn-border btn--with-shadow c-green">
-											Visit Our Services
-										</a>
-									</div>
-
-								</div>
-              </div>
-              <div class="col-lg-6 hidden-md hidden-sm hidden-xs hidden-xxs table-cell">
-                <div class="slider-thumb" data-swiper-parallax="-300" data-swiper-parallax-duration="500">
-									<img src="<?php echo get_template_directory_uri(); ?>/img/iconic/03.png" alt="slider">
-								</div>
+  								</div>
+                </div>
+                <div class="col-lg-6 hidden-md hidden-sm hidden-xs hidden-xxs table-cell">
+                  <div class="slider-thumb" data-swiper-parallax="-300" data-swiper-parallax-duration="500">
+  									<img src="<?php echo get_template_directory_uri(); ?>/img/iconic/webdesign-guarantee.png" alt="service guarantee">
+  								</div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
-			<!--Prev next buttons-->
-			<div class="btn-prev with-bg">
-        <?php itcorp_svg( 'utouch-icon-arrow-left-1', 'utouch-icon icon-hover utouch-icon-arrow-left-1' ); ?>
-        <?php itcorp_svg( 'utouch-icon-arrow-left1' ); ?>
-			</div>
-			<div class="btn-next with-bg">
-        <?php itcorp_svg( 'utouch-icon-arrow-right-1', 'utouch-icon icon-hover utouch-icon-arrow-right-1' ); ?>
-        <?php itcorp_svg( 'utouch-icon-arrow-right1' ); ?>
-			</div>
-		</div>
-	</div>
+          <div class="swiper-slide main-slider-bg-light bg-00">
+            <div class="container table">
+  						<div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12 table-cell">
+                  <div class="slider-content align-both">
+  									<h2 class="slider-content-title" data-swiper-parallax="-100">
+                      We Provide Wide Range Of
+  										<span class="c-green">Top Rated Services </span>
+  										You Need To Grow Your Business
+  									</h2>
+  									<h6 class="slider-content-text hidden-md hidden-sm hidden-xs hidden-xxs" data-swiper-parallax="-200">
+                      We merge imagination and technology to help brands grow in an age of digital transformation
+  									</h6>
+
+                    <div class="row" data-swiper-parallax="-300">
+  										<div class="col-lg-6 col-md-6 col-sm-12">
+                        <ul class="list list--standard">
+  												<li>
+                            <?php itcorp_svg( 'utouch-icon-correct-symbol-1' ); ?>
+  													<a href="#">Website Design</a>
+  												</li>
+  												<li>
+  													<?php itcorp_svg( 'utouch-icon-correct-symbol-1' ); ?>
+  													<a href="#">Web Development</a>
+  												</li>
+  											</ul>
+  										</div>
+  										<div class="col-lg-6 col-md-6 col-sm-12">
+                        <ul class="list list--standard">
+  												<li>
+  													<?php itcorp_svg( 'utouch-icon-correct-symbol-1' ); ?>
+  													<a href="#">Digital Marketing</a>
+  												</li>
+  												<li>
+  													<?php itcorp_svg( 'utouch-icon-correct-symbol-1' ); ?>
+  													<a href="#">SEO</a>
+  												</li>
+  											</ul>
+  										</div>
+  									</div>
+
+                    <div class="main-slider-btn-wrap mt30 hidden-xxs" data-swiper-parallax="-400">
+  										<a href="/contact" class="btn btn-border btn--with-shadow c-green">
+  											Visit Our Services
+  										</a>
+  									</div>
+
+  								</div>
+                </div>
+                <div class="col-lg-6 hidden-md hidden-sm hidden-xs hidden-xxs table-cell">
+                  <div class="slider-thumb" data-swiper-parallax="-300" data-swiper-parallax-duration="500">
+  									<img src="<?php echo get_template_directory_uri(); ?>/img/iconic/03.png" alt="slider">
+  								</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+  			<!--Prev next buttons-->
+  			<div class="btn-prev with-bg">
+          <?php itcorp_svg( 'utouch-icon-arrow-left-1', 'utouch-icon icon-hover utouch-icon-arrow-left-1' ); ?>
+          <?php itcorp_svg( 'utouch-icon-arrow-left1' ); ?>
+  			</div>
+  			<div class="btn-next with-bg">
+          <?php itcorp_svg( 'utouch-icon-arrow-right-1', 'utouch-icon icon-hover utouch-icon-arrow-right-1' ); ?>
+          <?php itcorp_svg( 'utouch-icon-arrow-right1' ); ?>
+  			</div>
+  		</div>
+  	</div>
+  </div>
 	<!-- ... end Main Slider -->
 
   <!-- ... About -->

@@ -15,8 +15,11 @@
 				</p>
 			</div>
 			<div class="col-lg-3 col-lg-offset-2 col-md-3 col-md-offset-2 col-sm-12 col-xs-12 align-right">
-				<a href="#" class="btn btn--green js-message-popup cd-nav-trigger">
+				<a href="javascript:void(0)" class="btn btn--green js-message-popup cd-nav-trigger full-width">
 					Send a Message
+				</a>
+				<a href="javascript:void(0)" class="btn btn--green js-proposal-popup cd-nav-trigger full-width">
+					proposal
 				</a>
 			</div>
 		</div>
@@ -77,6 +80,7 @@
 <!-- End Footer -->
 
 <?php require get_template_directory() . '/page-templates/send-message-popup.php'; ?>
+<?php require get_template_directory() . '/page-templates/proposal-popup.php'; ?>
 
 <?php wp_footer(); ?>
 </body>
