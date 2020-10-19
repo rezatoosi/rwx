@@ -33,7 +33,7 @@
 				</div>
         <div class="col-lg-1 col-md-2 col-sm-6 col-xs-12">
           <span class="clients-images">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/tech/mysql.png" class="" alt="MySQL" title="MySQL">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/tech/mysql2.png" class="" alt="MySQL" title="MySQL">
           </span>
 				</div>
         <div class="col-lg-1 col-md-2 col-sm-6 col-xs-12">
