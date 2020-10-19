@@ -38,7 +38,7 @@
 </div>
 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 <div class="with-icon">
-[text your-subject class:with-icon placeholder "Your Website (Optional)"]
+[text your-website class:with-icon placeholder "Your Website (Optional)"]
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="utouch-icon utouch-icon-icon-1"><path d="m510 347c5 9 0 21-10 26l-216 98c-3 1-6 2-8 2-2 0-4 0-6-1l-256-79c-10-3-16-14-13-24 3-11 14-17 25-13l248 76 210-95c10-5 22 0 26 10z m-236 6l-248-76c-11-3-22 2-25 13-3 10 3 21 13 24l256 79c2 1 4 1 6 1 2 0 5-1 8-2l216-98c10-5 15-16 10-26-4-10-16-15-26-10z m-274-135c0-8 4-16 12-19l144-61c28-12 42-27 42-79 0-6 2-12 7-16 5-3 11-5 17-3l255 63c9 2 15 10 15 19l0 3c0 58 0 96-72 126-47 21-135 62-136 62-3 2-5 2-8 2-2 0-4 0-6-1l-256-78c-8-3-14-10-14-18z m77-4l197 61c22-11 90-43 131-60 44-18 47-32 47-78l-216-53c-4 40-19 71-65 90z"></path></svg>
 </div>
 </div>
@@ -46,7 +46,7 @@
 
 <div class="row">
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-[submit class:btn class:btn--green class:btn--with-shadow class:full-width "Request a proposal"]
+[submit class:btn class:btn--green class:btn--with-shadow class:full-width "Request a free proposal"]
 </div>
 </div>
 

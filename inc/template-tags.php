@@ -153,7 +153,7 @@ function itcorp_services_heading_section( $args ) {
               <a href="%1$s" class="btn btn-border c-white">
                 %8$s
               </a>
-              <a href="#" class="btn btn-border c-white">
+              <a href="javascript:void(0)" class="btn btn-border c-white js-proposal-popup cd-nav-trigger">
                 Get a free proposal
               </a>
             </div>

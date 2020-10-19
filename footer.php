@@ -11,15 +11,12 @@
 		<div class="row">
 			<div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
 				<p>
-					Our clients get the best results when they have our team dedicated to their business for extended periods of time. This is why we are looking for ongoing collaboration where our professionals are like your team members who just happen to be remote. Ready to move forward?
+					Contact us today to tell us about your business and your targets, and get what you expect.
 				</p>
 			</div>
 			<div class="col-lg-3 col-lg-offset-2 col-md-3 col-md-offset-2 col-sm-12 col-xs-12 align-right">
 				<a href="javascript:void(0)" class="btn btn--green js-message-popup cd-nav-trigger full-width">
 					Send a Message
-				</a>
-				<a href="javascript:void(0)" class="btn btn--green js-proposal-popup cd-nav-trigger full-width">
-					proposal
 				</a>
 			</div>
 		</div>
