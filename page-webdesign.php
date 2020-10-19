@@ -46,11 +46,15 @@
             <ul class="list list--primary">
     					<li>
     						<?php itcorp_svg( 'utouch-icon-correct-symbol-1' ); ?>
-    						<a href="#">B2B Website Design</a>
+    						<a href="#">UI/UX Design</a>
     					</li>
               <li>
     						<?php itcorp_svg( 'utouch-icon-correct-symbol-1' ); ?>
-    						<a href="#">e-Commerce Website Design</a>
+    						<a href="#">B2B Website</a>
+    					</li>
+              <li>
+    						<?php itcorp_svg( 'utouch-icon-correct-symbol-1' ); ?>
+    						<a href="#">e-Commerce Website</a>
     					</li>
               <li>
     						<?php itcorp_svg( 'utouch-icon-correct-symbol-1' ); ?>
@@ -71,6 +75,7 @@
 		</div>
 	</div>
 </section>
+
 
 <section class="bg-blue-lighteen pt80 pb80">
 	<div class="container">
@@ -148,6 +153,106 @@
 		</div>
 	</div>
 </section>
+
+
+<section class="bg-blue-lighteen medium-padding80">
+		<div class="container">
+      <div class="row">
+        <div class="col-lg-10 col-lg-offset-1 col-md-12 col-sm-12 col-xs-12">
+          <div class="crumina-module crumina-heading align-center pb30">
+  					<h2 class="h2 heading-title">
+              Our Proven Proccess
+            </h2>
+  				</div>
+        </div>
+      </div>
+			<div class="row">
+				<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+					<div class="crumina-module crumina-info-box info-box--classic" data-mh="box--classic">
+						<div class="info-box-image">
+							<img class="utouch-icon" src="<?php echo get_template_directory_uri(); ?>/img/proccess/discover.png" alt="web design proccess - Discovery">
+						</div>
+						<div class="info-box-content">
+							<h5 class="info-box-title">1. Discovery</h5>
+							<p class="info-box-text">
+                We learn about your business, your advantages, your targets, your industry and your competitors
+              </p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+					<div class="crumina-module crumina-info-box info-box--classic" data-mh="box--classic">
+						<div class="info-box-image">
+							<img class="utouch-icon" src="<?php echo get_template_directory_uri(); ?>/img/proccess/plan.png" alt="web design proccess - plan">
+						</div>
+						<div class="info-box-content">
+							<h5 class="info-box-title">2. Plan</h5>
+							<p class="info-box-text">
+                Decide about what points we want to focus more and determine best way to catch your marketing and business goals
+              </p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+					<div class="crumina-module crumina-info-box info-box--classic" data-mh="box--classic">
+						<div class="info-box-image">
+							<img class="utouch-icon" src="<?php echo get_template_directory_uri(); ?>/img/proccess/design.png" alt="web design proccess - Design">
+						</div>
+						<div class="info-box-content">
+							<h5 class="info-box-title">3. Design</h5>
+							<p class="info-box-text">
+                Design a wireframe version and implement it after your review
+              </p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+					<div class="crumina-module crumina-info-box info-box--classic" data-mh="box--classic">
+						<div class="info-box-image">
+							<img class="utouch-icon" src="<?php echo get_template_directory_uri(); ?>/img/proccess/develope.png" alt="web design proccess - Develope">
+						</div>
+						<div class="info-box-content">
+							<h5 class="info-box-title">4. Development</h5>
+							<p class="info-box-text">
+                Add functionality and implement features into selected content management system
+              </p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+					<div class="crumina-module crumina-info-box info-box--classic" data-mh="box--classic">
+						<div class="info-box-image">
+							<img class="utouch-icon" src="<?php echo get_template_directory_uri(); ?>/img/proccess/launch.png" alt="web design proccess - Launch">
+						</div>
+						<div class="info-box-content">
+							<h5 class="info-box-title">5. Lauch</h5>
+							<p class="info-box-text">
+                After passing test checklist, we will get the project ready for launch, manage hosting, setup google analytics and other essential tools.
+              </p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+					<div class="crumina-module crumina-info-box info-box--classic" data-mh="box--classic">
+						<div class="info-box-image">
+							<img class="utouch-icon" src="<?php echo get_template_directory_uri(); ?>/img/proccess/discover.png" alt="web design proccess - Support & Maintenance">
+						</div>
+						<div class="info-box-content">
+							<h5 class="info-box-title">6. Maintenance</h5>
+							<p class="info-box-text">
+                We check website performance, plugins update, security risks, backing up, and other improvements in specific periods
+              </p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
 
 <?php require get_template_directory() . '/page-templates/techs.php'; ?>
 
