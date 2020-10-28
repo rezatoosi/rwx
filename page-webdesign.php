@@ -253,8 +253,146 @@
 		</div>
 	</section>
 
-
 <?php require get_template_directory() . '/page-templates/techs.php'; ?>
+
+<!-- Pricing Tables -->
+
+	<section class="medium-padding80 crumina-pricings">
+		<div class="container">
+			<div class="row mb60">
+				<div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
+					<div class="crumina-module crumina-heading align-center">
+						<h2 class="heading-title">Webdesign Services Pricing</h2>
+						<div class="heading-text">
+              You can select one of the packages below or request your custom features
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+        <!-- <div class="pricing-tables-wrap bg-light"> -->
+				<div class="bg-light">
+					<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 no-padding" data-mh="pricing-item">
+						<div class="crumina-module crumina-pricing-tables-item pricing-tables-item-solid bg-light">
+							<div class="bg-layer full-block"></div>
+							<div class="main-pricing-content">
+								<h5 class="pricing-title c-primary">Simple Attractive</h5>
+								<h2 class="h1 rate">$<span class="price">777</span>.77</h2>
+								<h6 class="period">Includes:</h6>
+                <ul class="pricing-tables-position">
+									<li class="position-item">
+										Template Design
+									</li>
+									<li class="position-item">
+										Wordpress CMS
+									</li>
+                  <li class="position-item">
+										Responsive design
+									</li>
+                  <li class="position-item">
+										1-25 Pages
+									</li>
+									<li class="position-item">
+										SEO Firendly
+									</li>
+								</ul>
+							</div>
+
+							<a href="javascript:void(0);" class="btn btn--primary btn--with-shadow js-proposal-popup cd-nav-trigger">
+								Request Free Proposal
+							</a>
+
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 no-padding" data-mh="pricing-item">
+						<div class="crumina-module crumina-pricing-tables-item pricing-tables-item-solid bg-light">
+							<div class="bg-layer full-block"></div>
+							<div class="main-pricing-content">
+								<h5 class="pricing-title c-green">Highly Stylized</h5>
+								<h2 class="h1 rate">$<span class="price">1499</span>.99</h2>
+								<h6 class="period">Includes:</h6>
+								<ul class="pricing-tables-position">
+									<li class="position-item">
+                    Highly Customized Design
+									</li>
+                  <li class="position-item">
+										Wordpress CMS
+									</li>
+                  <li class="position-item">
+										Responsive design
+									</li>
+                  <li class="position-item">
+										Up to 100 Pages
+									</li>
+                  <li class="position-item">
+										Up to 10 Copywriting Pages
+									</li>
+									<li class="position-item">
+										SEO Firendly
+									</li>
+                  <li class="position-item">
+										SEO: Up to 5 keyword
+									</li>
+                  <li class="position-item">
+										Basic e-Commerce Functionality
+									</li>
+								</ul>
+							</div>
+
+							<a href="javascript:void(0);" class="btn btn--green btn--with-shadow js-proposal-popup cd-nav-trigger">
+								Request Free Proposal
+							</a>
+
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 no-padding" data-mh="pricing-item">
+						<div class="crumina-module crumina-pricing-tables-item pricing-tables-item-solid bg-light">
+							<div class="bg-layer full-block"></div>
+							<div class="main-pricing-content">
+								<h5 class="pricing-title c-orange-light">World Class</h5>
+								<h2 class="h1 rate">$<span class="price">3000</span>.00</h2>
+								<h6 class="period">Includes:</h6>
+								<ul class="pricing-tables-position">
+                  <li class="position-item">
+                    Custom Design
+									</li>
+                  <li class="position-item">
+										Wordpress CMS
+									</li>
+                  <li class="position-item">
+										Responsive design
+									</li>
+                  <li class="position-item">
+										Unlimited Pages
+									</li>
+                  <li class="position-item">
+										Up to 25 Copywriting Pages
+									</li>
+									<li class="position-item">
+										SEO Firendly
+									</li>
+                  <li class="position-item">
+										SEO: Up to 20 keyword
+									</li>
+                  <li class="position-item">
+										Advanced e-Commerce Functionality
+									</li>
+								</ul>
+							</div>
+
+							<a href="javascript:void(0);" class="btn btn--orange-light btn--with-shadow js-proposal-popup cd-nav-trigger">
+								Request Free Proposal
+							</a>
+
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- ... end Pricing Tables -->
 
 <?php
 get_footer();

@@ -46,6 +46,15 @@
 
 <div class="row">
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+<div class="with-icon">
+[textarea request-details class:with-icon rows:3 placeholder "Request Details"]
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="utouch-icon utouch-icon-edit"><path d="m482 64l-34-34c-62-56-126-20-146 0l-279 280c-9 6-9 17-9 19l-14 160c2 24 23 23 23 23l165-12c6-1 10-3 13-7l281-283c40-40 40-106 0-146z m-290 378c-11-20-24-38-37-53l210-213 46 46z m99-339l44 43-211 212c-20-16-38-28-53-36z m-237 258c28 16 71 47 99 98l-108 9z m398-179l-11 11-120-121 11-11c12-11 52-34 86 0l34 34c23 25 23 63 0 87z"></path></svg>
+</div>
+</div>
+</div>
+
+<div class="row">
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 [submit class:btn class:btn--green class:btn--with-shadow class:full-width "Request a free proposal"]
 </div>
 </div>
