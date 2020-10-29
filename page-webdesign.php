@@ -256,7 +256,6 @@
 <?php require get_template_directory() . '/page-templates/techs.php'; ?>
 
 <!-- Pricing Tables -->
-
 	<section class="medium-padding80 crumina-pricings">
 		<div class="container">
 			<div class="row mb60">
@@ -386,13 +385,76 @@
 
 						</div>
 					</div>
-
 				</div>
 			</div>
 		</div>
 	</section>
+<!-- ... end Pricing Tables -->
 
-	<!-- ... end Pricing Tables -->
+<!-- Accordion -->
+
+<section class="medium-padding120">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+
+        <div class="crumina-module crumina-heading">
+          <h2 class="heading-title h5">
+            What else you need to know?
+          </h2>
+        </div>
+
+        <div id="accordion" class="crumina-module crumina-accordion">
+          <div class="card accordion-panel">
+            <div class="card-header panel-heading" id="heading1">
+              <button class="btn-link accordion-heading" data-toggle="collapse" data-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                <span class="icons">
+                  <?php itcorp_svg( 'utouch-icon-add' ); ?>
+                  <?php itcorp_svg( 'utouch-icon-minus', 'utouch-icon active utouch-icon-minus' ); ?>
+                </span>
+                <span class="title">How much will it cost to design my website at RIOWEX?</span>
+              </button>
+            </div>
+            <div id="collapse1" class="panel-collapse collapse show" aria-labelledby="heading1" data-parent="#accordion">
+              <div class="card-body">
+                <div class="panel-info">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                  tincidunt ut laoreet dolore magna aliquam erat volutpat odio dignissim qui blandit.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card accordion-panel">
+            <div class="card-header panel-heading" id="heading2">
+              <button class="btn-link accordion-heading" data-toggle="collapse" data-target="#collapse2" aria-expanded="true" aria-controls="collapse2">
+                <span class="icons">
+                  <?php itcorp_svg( 'utouch-icon-add' ); ?>
+                  <?php itcorp_svg( 'utouch-icon-minus', 'utouch-icon active utouch-icon-minus' ); ?>
+                </span>
+                <span class="title">How long does it take to design my website at RIOWEX?</span>
+              </button>
+            </div>
+            <div id="collapse2" class="panel-collapse collapse show" aria-labelledby="heading2" data-parent="#accordion">
+              <div class="card-body">
+                <div class="panel-info">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                  tincidunt ut laoreet dolore magna aliquam erat volutpat odio dignissim qui blandit.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col-lg-5 col-lg-offset-1 col-md-6 col-sm-12 col-xs-12">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/product-img2.png" alt="image">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ... end Accordion -->
 
 <?php
 get_footer();
