@@ -2,12 +2,17 @@
 /**
  * Register and enqueue scripts
  */
+  if (!is_admin()) add_action("wp_enqueue_scripts", "itcorp_jquery_enqueue", 11);
+  function itcorp_jquery_enqueue() {
+    wp_deregister_script('jquery');
+    // wp_register_script('jquery', "//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js", false, null);
+    // wp_enqueue_script('jquery');
+  }
+
  function itcorp_register_scripts() {
 
    $theme_version = wp_get_theme()->get( 'version' );
 
-   // <script src="js/jquery-3.3.1.js"></script>
-   // wp_enqueue_script( 'jquery' );
    wp_enqueue_script( 'itcorp-js-jquery', get_template_directory_uri() . '/js/jquery-3.3.1.js', array(), $theme_version, true );
    wp_enqueue_script( 'itcorp-js-pagination', get_template_directory_uri() . '/js/js-plugins/ajax-pagination.js', array(), $theme_version, true );
    wp_enqueue_script( 'itcorp-js-countdown', get_template_directory_uri() . '/js/js-plugins/jquery.countdown.min.js', array(), $theme_version, true );
