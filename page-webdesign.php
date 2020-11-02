@@ -405,6 +405,7 @@
         </div>
 
         <div id="accordion" class="crumina-module crumina-accordion">
+
           <div class="card accordion-panel">
             <div class="card-header panel-heading" id="heading1">
               <button class="btn-link accordion-heading" data-toggle="collapse" data-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
@@ -412,7 +413,7 @@
                   <?php itcorp_svg( 'utouch-icon-add' ); ?>
                   <?php itcorp_svg( 'utouch-icon-minus', 'utouch-icon active utouch-icon-minus' ); ?>
                 </span>
-                <span class="title">How much will it cost to design my website at RIOWEX?</span>
+                <span class="title">How much will it cost to design my website?</span>
               </button>
             </div>
             <div id="collapse1" class="panel-collapse collapse show" aria-labelledby="heading1" data-parent="#accordion">
@@ -424,6 +425,7 @@
               </div>
             </div>
           </div>
+
           <div class="card accordion-panel">
             <div class="card-header panel-heading" id="heading2">
               <button class="btn-link accordion-heading" data-toggle="collapse" data-target="#collapse2" aria-expanded="true" aria-controls="collapse2">
@@ -431,7 +433,7 @@
                   <?php itcorp_svg( 'utouch-icon-add' ); ?>
                   <?php itcorp_svg( 'utouch-icon-minus', 'utouch-icon active utouch-icon-minus' ); ?>
                 </span>
-                <span class="title">How long does it take to design my website at RIOWEX?</span>
+                <span class="title">How long does it take to design my website at?</span>
               </button>
             </div>
             <div id="collapse2" class="panel-collapse collapse show" aria-labelledby="heading2" data-parent="#accordion">
@@ -443,6 +445,67 @@
               </div>
             </div>
           </div>
+
+          <div class="card accordion-panel">
+            <div class="card-header panel-heading" id="heading3">
+              <button class="btn-link accordion-heading" data-toggle="collapse" data-target="#collapse3" aria-expanded="true" aria-controls="collapse3">
+                <span class="icons">
+                  <?php itcorp_svg( 'utouch-icon-add' ); ?>
+                  <?php itcorp_svg( 'utouch-icon-minus', 'utouch-icon active utouch-icon-minus' ); ?>
+                </span>
+                <span class="title">What type and size of companies do you work with?</span>
+              </button>
+            </div>
+            <div id="collapse3" class="panel-collapse collapse show" aria-labelledby="heading3" data-parent="#accordion">
+              <div class="card-body">
+                <div class="panel-info">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                  tincidunt ut laoreet dolore magna aliquam erat volutpat odio dignissim qui blandit.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card accordion-panel">
+            <div class="card-header panel-heading" id="heading4">
+              <button class="btn-link accordion-heading" data-toggle="collapse" data-target="#collapse4" aria-expanded="true" aria-controls="collapse4">
+                <span class="icons">
+                  <?php itcorp_svg( 'utouch-icon-add' ); ?>
+                  <?php itcorp_svg( 'utouch-icon-minus', 'utouch-icon active utouch-icon-minus' ); ?>
+                </span>
+                <span class="title">Where is your team located?</span>
+              </button>
+            </div>
+            <div id="collapse4" class="panel-collapse collapse show" aria-labelledby="heading4" data-parent="#accordion">
+              <div class="card-body">
+                <div class="panel-info">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                  tincidunt ut laoreet dolore magna aliquam erat volutpat odio dignissim qui blandit.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card accordion-panel">
+            <div class="card-header panel-heading" id="heading5">
+              <button class="btn-link accordion-heading" data-toggle="collapse" data-target="#collapse5" aria-expanded="true" aria-controls="collapse5">
+                <span class="icons">
+                  <?php itcorp_svg( 'utouch-icon-add' ); ?>
+                  <?php itcorp_svg( 'utouch-icon-minus', 'utouch-icon active utouch-icon-minus' ); ?>
+                </span>
+                <span class="title">When was your agency founded?</span>
+              </button>
+            </div>
+            <div id="collapse5" class="panel-collapse collapse show" aria-labelledby="heading5" data-parent="#accordion">
+              <div class="card-body">
+                <div class="panel-info">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                  tincidunt ut laoreet dolore magna aliquam erat volutpat odio dignissim qui blandit.
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
 
       </div>
