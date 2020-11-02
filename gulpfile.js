@@ -17,30 +17,53 @@ const gulp = require('gulp'),
 
 /*===========Compile SCSS==============*/
 
+//
+// gulp.task('sass', function(cb) {
+//
+//     gulp.src('./sass/**/*.scss')
+// 		.pipe(sourcemaps.init())
+// 		.pipe(sourcemaps.identityMap())
+//     .pipe(sass(
+// 			{
+// 				linefeed: "crlf"
+// 			}
+// 		))
+// 		.pipe(prefixer(
+// 			{
+// 				browsers: ['last 12 versions'],
+// 				cascade: false
+// 			}
+// 		))
+// 		.pipe(sourcemaps.write())
+//     .pipe(gulp.dest('./css'))
+//     .pipe(plumber())
+//     .pipe(sass({errLogToConsole: true}))
+//     .pipe(browserSync.reload({
+//         stream: true
+//     }));
+// 	cb();
+// });
 
 gulp.task('sass', function(cb) {
+    gulp.src('./sass/style.scss')
+    .pipe(sass({outputStyle: 'compressed',linefeed: "crlf",errLogToConsole: true}).on('error', sass.logError))
+		.pipe(prefixer({browsers: ['last 12 versions'],cascade: false}))
+    .pipe(gulp.dest('.'));
+	cb();
+});
 
-    gulp.src('./sass/**/*.scss')
+gulp.task('sass-dev', function(cb) {
+
+    gulp.src('./sass/style.scss')
 		.pipe(sourcemaps.init())
 		.pipe(sourcemaps.identityMap())
-    .pipe(sass(
-			{
-				linefeed: "crlf"
-			}
-		))
-		.pipe(prefixer(
-			{
-				browsers: ['last 12 versions'],
-				cascade: false
-			}
-		))
-		.pipe(sourcemaps.write())
-    .pipe(gulp.dest('./css'))
-    .pipe(plumber())
-    .pipe(sass({errLogToConsole: true}))
-    .pipe(browserSync.reload({
-        stream: true
-    }));
+    .pipe(sass({linefeed: "crlf",errLogToConsole: true}))
+		.pipe(prefixer({browsers: ['last 12 versions'],cascade: false}))
+		.pipe(sourcemaps.write('.'))
+    .pipe(gulp.dest('.'))
+    // .pipe(plumber())
+    // .pipe(sass({linefeed: "crlf",errLogToConsole: true}))
+    .pipe(browserSync.reload({stream: true}));
 	cb();
 });
 
@@ -71,6 +94,6 @@ gulp.task('images', function (cb) {
 /*/!*=============Join tasks==============*!/*/
 
 
-gulp.task('default', gulp.parallel('sass', 'watch'));
+gulp.task('dev', gulp.parallel('sass-dev', 'watch'));
 
 gulp.task('build', gulp.series( 'sass', 'images'));
