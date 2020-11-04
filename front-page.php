@@ -217,7 +217,7 @@
 								</a>
 
 								<a href="#" class="btn btn-market btn--with-shadow">
-									<img class="utouch-icon" src="svg-icons/google-play.svg" alt="google">
+									<img class="utouch-icon" src="<?php itcorp_img_uri( 'svg-icons/google-play.svg' ); ?>" alt="google">
 									<div class="text">
 										<span class="sup-title">Download on the</span>
 										<span class="title">Google Play</span>
@@ -233,7 +233,7 @@
 						<div class="row">
 							<div class="col-lg-4 col-lg-offset-1 col-md-5 col-md-offset-0 col-sm-12 col-xs-12">
 								<div class="slider-tabs-vertical-thumb">
-									<img src="<?php itcorp_img_uri( 'iphone2.png' ); ?>" alt="iphone">
+									<img src="<?php itcorp_img_uri( 'iphone.png' ); ?>" alt="iphone">
 								</div>
 							</div>
 							<div class="col-lg-6 col-lg-offset-1 col-md-7 col-md-offset-0 col-sm-12 col-xs-12">
@@ -256,7 +256,7 @@
 								</a>
 
 								<a href="#" class="btn btn-market btn--with-shadow">
-									<img class="utouch-icon" src="svg-icons/google-play.svg" alt="google">
+									<img class="utouch-icon" src="<?php itcorp_img_uri( 'svg-icons/google-play.svg' ); ?>" alt="google">
 									<div class="text">
 										<span class="sup-title">Download on the</span>
 										<span class="title">Google Play</span>
@@ -272,7 +272,7 @@
 						<div class="row">
 							<div class="col-lg-4 col-lg-offset-1 col-md-5 col-md-offset-0 col-sm-12 col-xs-12">
 								<div class="slider-tabs-vertical-thumb">
-									<img src="<?php itcorp_img_uri( 'iphone3.png' ); ?>" alt="iphone">
+									<img src="<?php itcorp_img_uri( 'iphone.png' ); ?>" alt="iphone">
 								</div>
 							</div>
 							<div class="col-lg-6 col-lg-offset-1 col-md-7 col-md-offset-0 col-sm-12 col-xs-12">
@@ -299,7 +299,7 @@
 								</a>
 
 								<a href="#" class="btn btn-market btn--with-shadow">
-									<img class="utouch-icon" src="svg-icons/google-play.svg" alt="google">
+									<img class="utouch-icon" src="<?php itcorp_img_svg( 'svg-icons/google-play.svg' ); ?>" alt="google">
 									<div class="text">
 										<span class="sup-title">Download on the</span>
 										<span class="title">Google Play</span>
@@ -626,7 +626,7 @@
 								<div class="crumina-module crumina-testimonial-item testimonial-item-arrow">
 										<div class="author-info-wrap">
 											<div class="testimonial-img-author">
-												<img src="img/author2.png" alt="author">
+												<img src="<?php itcorp_img_uri( 'author2.png' ); ?>" alt="author">
 											</div>
 											<div class="author-info">
 												<a href="#" class="h6 author-name">Chris Miller</a>
@@ -673,7 +673,7 @@
 								<div class="crumina-module crumina-testimonial-item testimonial-item-arrow">
 										<div class="author-info-wrap">
 											<div class="testimonial-img-author">
-												<img src="img/author3.png" alt="author">
+												<img src="<?php itcorp_img_uri( 'author3.png' ); ?>" alt="author">
 											</div>
 											<div class="author-info">
 												<a href="#" class="h6 author-name">Susan Meyer</a>
@@ -721,7 +721,7 @@
 								<div class="crumina-module crumina-testimonial-item testimonial-item-arrow">
 										<div class="author-info-wrap">
 											<div class="testimonial-img-author">
-												<img src="img/author4.png" alt="author">
+												<img src="<?php itcorp_img_uri( 'author4.png' ); ?>" alt="author">
 											</div>
 											<div class="author-info">
 												<a href="#" class="h6 author-name">Doe Simpson</a>
