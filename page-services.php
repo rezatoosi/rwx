@@ -20,11 +20,12 @@
 				</div>
 			</div>
 			<div class="col-lg-12 col-sm-12">
-				<img src="<?php echo get_template_directory_uri(); ?>/img/product-img.png" alt="image" class="display-block">
+				<img src="<?php itcorp_img_uri( 'product-img.png' ); ?>" alt="image" class="display-block">
 			</div>
 		</div>
 	</div>
 </section>
+
 <!-- Services -->
 <?php require get_template_directory() . '/page-templates/services.php'; ?>
 <!-- ... end Services -->

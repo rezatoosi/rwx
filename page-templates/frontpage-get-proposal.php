@@ -4,7 +4,7 @@
     <div class="row">
       <div class="subscribe-form">
         <div class="subscribe-main-content">
-          <img class="subscribe-img" src="<?php echo get_template_directory_uri(); ?>/img/subscribe-img.png" alt="image">
+          <img class="subscribe-img" src="<?php itcorp_img_uri( 'subscribe-img.png' ); ?>" alt="image">
 
           <div class="col-lg-7 col-md-12 col-sm-12 col-xs-12">
             <div class="crumina-module crumina-heading">

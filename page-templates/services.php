@@ -15,8 +15,8 @@
         <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
           <div class="crumina-module crumina-service-item" data-mh="services">
             <div class="service-thumb">
-              <img src="<?php echo get_template_directory_uri(); ?>/img/svg/webdesign.svg" alt="webdesign" class="icon-img">
-              <img class="cloud" src="<?php echo get_template_directory_uri(); ?>/img/clouds8.png" alt="cloud">
+              <img src="<?php itcorp_img_uri( 'svg/webdesign.svg' ); ?>" alt="webdesign" class="icon-img">
+              <img class="cloud" src="<?php itcorp_img_uri( 'clouds8.png' ); ?>" alt="cloud">
             </div>
 
             <div class="main-service-content">
@@ -41,8 +41,8 @@
         <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
           <div class="crumina-module crumina-service-item" data-mh="services">
             <div class="service-thumb">
-              <img src="<?php echo get_template_directory_uri(); ?>/img/svg/development.svg" alt="web development and mobile app development" class="icon-img">
-              <img class="cloud" src="<?php echo get_template_directory_uri(); ?>/img/clouds8.png" alt="cloud">
+              <img src="<?php itcorp_img_uri( 'svg/development.svg' ); ?>" alt="web development and mobile app development" class="icon-img">
+              <img class="cloud" src="<?php itcorp_img_uri( 'clouds8.png' ); ?>" alt="cloud">
             </div>
 
             <div class="main-service-content">
@@ -67,8 +67,8 @@
         <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
           <div class="crumina-module crumina-service-item" data-mh="services">
             <div class="service-thumb">
-              <img src="<?php echo get_template_directory_uri(); ?>/img/svg/ecommerce.svg" alt="e-commerce and online shop" class="icon-img">
-              <img class="cloud" src="<?php echo get_template_directory_uri(); ?>/img/clouds8.png" alt="cloud">
+              <img src="<?php itcorp_img_uri( 'svg/ecommerce.svg' ); ?>" alt="e-commerce and online shop" class="icon-img">
+              <img class="cloud" src="<?php itcorp_img_uri( 'clouds8.png' ); ?>" alt="cloud">
             </div>
 
             <div class="main-service-content">
@@ -93,8 +93,8 @@
         <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
           <div class="crumina-module crumina-service-item" data-mh="services">
             <div class="service-thumb">
-              <img src="<?php echo get_template_directory_uri(); ?>/img/svg/digital-marketing-2.svg" alt="Digital Marketing" class="icon-img">
-              <img class="cloud" src="<?php echo get_template_directory_uri(); ?>/img/clouds8.png" alt="cloud">
+              <img src="<?php itcorp_img_uri( 'svg/digital-marketing-2.svg' ); ?>" alt="Digital Marketing" class="icon-img">
+              <img class="cloud" src="<?php itcorp_img_uri( 'clouds8.png' ); ?>" alt="cloud">
             </div>
 
             <div class="main-service-content">
@@ -119,8 +119,8 @@
         <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
           <div class="crumina-module crumina-service-item" data-mh="services">
             <div class="service-thumb">
-              <img src="<?php echo get_template_directory_uri(); ?>/img/svg/seo.svg" alt="SEO Marketing" class="icon-img">
-              <img class="cloud" src="<?php echo get_template_directory_uri(); ?>/img/clouds8.png" alt="cloud">
+              <img src="<?php itcorp_img_uri( 'svg/seo.svg' ); ?>" alt="SEO Marketing" class="icon-img">
+              <img class="cloud" src="<?php itcorp_img_uri( 'clouds8.png' ); ?>" alt="cloud">
             </div>
 
             <div class="main-service-content">
@@ -145,8 +145,8 @@
         <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
           <div class="crumina-module crumina-service-item" data-mh="services">
             <div class="service-thumb">
-              <img src="<?php echo get_template_directory_uri(); ?>/img/svg/wordpress.svg" alt="Wordpress CMS Development" class="icon-img">
-              <img class="cloud" src="<?php echo get_template_directory_uri(); ?>/img/clouds8.png" alt="cloud">
+              <img src="<?php itcorp_img_uri( 'svg/wordpress.svg' ); ?>" alt="Wordpress CMS Development" class="icon-img">
+              <img class="cloud" src="<?php itcorp_img_uri( 'clouds8.png' ); ?>" alt="cloud">
             </div>
 
             <div class="main-service-content">

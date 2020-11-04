@@ -26,7 +26,7 @@
    // // wp_enqueue_script( 'itcorp-js-nice-select', get_template_directory_uri() . '/js/js-plugins/jquery.nice-select.js', array(), $theme_version, true );
    // // wp_enqueue_script( 'itcorp-js-imagesLoaded', get_template_directory_uri() . '/js/js-plugins/imagesLoaded.js', array(), $theme_version, true );
    // // wp_enqueue_script( 'itcorp-js-magnific-popup', get_template_directory_uri() . '/js/js-plugins/jquery.magnific-popup.js', array(), $theme_version, true );
-   // // wp_enqueue_script( 'itcorp-js-matchHeight', get_template_directory_uri() . '/js/js-plugins/jquery.matchHeight.js', array(), $theme_version, true );
+   // wp_enqueue_script( 'itcorp-js-matchHeight', get_template_directory_uri() . '/js/js-plugins/jquery.matchHeight.js', array(), $theme_version, true );
    // // wp_enqueue_script( 'itcorp-js-Headroom', get_template_directory_uri() . '/js/js-plugins/Headroom.js', array(), $theme_version, true );
    // wp_enqueue_script( 'itcorp-js-smooth-scroll', get_template_directory_uri() . '/js/js-plugins/smooth-scroll.js', array(), $theme_version, true );
    // wp_enqueue_script( 'itcorp-js-segment', get_template_directory_uri() . '/js/js-plugins/segment.js', array(), $theme_version, true );

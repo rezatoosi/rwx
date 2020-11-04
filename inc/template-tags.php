@@ -1,5 +1,15 @@
 <?php
 
+function itcorp_img_uri( $file, $echo = true ) {
+  $img_folder = '/assets/dist/img/';
+  if ( !$echo ) {
+    return get_template_directory_uri() . $img_folder . $file;
+  }
+  else {
+    echo get_template_directory_uri() . $img_folder . $file;
+  }
+}
+
 function itcorp_site_logo( $args = array(), $echo = true ) {
   $logo = ( has_custom_logo() ) ? get_custom_logo() : '';
 

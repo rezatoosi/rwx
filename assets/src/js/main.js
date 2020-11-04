@@ -677,7 +677,7 @@ var CRUMINA = {};
 
 		CRUMINA.fixedHeader();
 		CRUMINA.initSwiper();
-		// CRUMINA.equalHeight();
+		CRUMINA.equalHeight();
 		// CRUMINA.mediaPopups();
 		// CRUMINA.IsotopeSort();
 		// CRUMINA.parallaxFooter();
@@ -700,5 +700,4 @@ var CRUMINA = {};
 	// $(window).on('resize', function(){
 	// 	window.requestAnimationFrame( CRUMINA.layerInit);
 	// });
-
 })(jQuery);

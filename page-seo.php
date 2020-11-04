@@ -16,7 +16,7 @@
     'subtitle'  =>  'Top Rated Digital Services',
     'title'     =>  'Professional SEO Services',
     'text'      =>  'At RIOWEX we combine professional skills, art, powerful tools and latest technologies to create incredible marketing solutions.',
-    'img'       =>  get_template_directory_uri() . '/img/iconic/webdesign-4.png',
+    'img'       =>  itcorp_img_uri( 'iconic/webdesign-4.png', false ),
     'img-alt'   =>  'search engine optimization satisfaction guarantee',
     ] );
 ?>

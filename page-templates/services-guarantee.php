@@ -21,10 +21,10 @@
       <div class="col-lg-4 col-lg-offset-4">
         <div class="row">
           <div class="col-lg-6">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/guarantee-satisfaction.png" alt="satisfaction guarantee">
+            <img src="<?php itcorp_img_uri( 'guarantee-satisfaction.png' ); ?>" alt="satisfaction guarantee">
           </div>
           <div class="col-lg-6">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/guarantee-moneyback.png" alt="money back guarantee">
+            <img src="<?php itcorp_img_uri( 'guarantee-moneyback.png' ); ?>" alt="money back guarantee">
           </div>
         </div>
       </div>
@@ -59,10 +59,10 @@
       <div class="col-lg-4 col-lg-offset-1">
         <div class="row">
           <div class="col-lg-6">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/guarantee-satisfaction.png" alt="satisfaction guarantee">
+            <img src="<?php itcorp_img_uri( 'guarantee-satisfaction.png' ); ?>" alt="satisfaction guarantee">
           </div>
           <div class="col-lg-6">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/guarantee-moneyback.png" alt="money back guarantee">
+            <img src="<?php itcorp_img_uri( 'guarantee-moneyback.png' ); ?>" alt="money back guarantee">
           </div>
         </div>
       </div>

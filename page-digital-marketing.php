@@ -16,7 +16,7 @@
     'subtitle'  =>  'Top Rated Digital Services',
     'title'     =>  'Professional Digital Marketing Services',
     'text'      =>  '...',
-    'img'       =>  get_template_directory_uri() . '/img/iconic/digital-marketing.png',
+    'img'       =>  itcorp_img_uri( 'iconic/digital-marketing.png', false ),
     'img-alt'   =>  'digital marketing satisfaction guarantee',
     ] );
 ?>

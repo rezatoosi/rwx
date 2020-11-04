@@ -62,7 +62,7 @@
                 </div>
                 <div class="col-lg-6 hidden-md hidden-sm hidden-xs hidden-xxs table-cell">
                   <div class="slider-thumb" data-swiper-parallax="-300" data-swiper-parallax-duration="500">
-  									<img src="<?php echo get_template_directory_uri(); ?>/img/iconic/webdesign-guarantee.png" alt="service guarantee">
+  									<img src="<?php itcorp_img_uri( 'iconic/webdesign-guarantee.png' ); ?>" alt="service guarantee">
   								</div>
                 </div>
               </div>
@@ -120,7 +120,7 @@
                 </div>
                 <div class="col-lg-6 hidden-md hidden-sm hidden-xs hidden-xxs table-cell">
                   <div class="slider-thumb" data-swiper-parallax="-300" data-swiper-parallax-duration="500">
-  									<img src="<?php echo get_template_directory_uri(); ?>/img/iconic/03.png" alt="slider">
+  									<img src="<?php itcorp_img_uri( 'iconic/03.png' ); ?>" alt="slider">
   								</div>
                 </div>
               </div>
@@ -194,7 +194,7 @@
 						<div class="row">
 							<div class="col-lg-4 col-lg-offset-1 col-md-5 col-md-offset-0 col-sm-12 col-xs-12">
 								<div class="slider-tabs-vertical-thumb">
-									<img src="<?php echo get_template_directory_uri(); ?>/img/iphone.png" alt="iphone">
+									<img src="<?php itcorp_img_uri( 'iphone.png' ); ?>" alt="iphone">
 								</div>
 							</div>
 							<div class="col-lg-6 col-lg-offset-1 col-md-7 col-md-offset-0 col-sm-12 col-xs-12">
@@ -233,7 +233,7 @@
 						<div class="row">
 							<div class="col-lg-4 col-lg-offset-1 col-md-5 col-md-offset-0 col-sm-12 col-xs-12">
 								<div class="slider-tabs-vertical-thumb">
-									<img src="<?php echo get_template_directory_uri(); ?>/img/iphone2.png" alt="iphone">
+									<img src="<?php itcorp_img_uri( 'iphone2.png' ); ?>" alt="iphone">
 								</div>
 							</div>
 							<div class="col-lg-6 col-lg-offset-1 col-md-7 col-md-offset-0 col-sm-12 col-xs-12">
@@ -272,7 +272,7 @@
 						<div class="row">
 							<div class="col-lg-4 col-lg-offset-1 col-md-5 col-md-offset-0 col-sm-12 col-xs-12">
 								<div class="slider-tabs-vertical-thumb">
-									<img src="<?php echo get_template_directory_uri(); ?>/img/iphone3.png" alt="iphone">
+									<img src="<?php itcorp_img_uri( 'iphone3.png' ); ?>" alt="iphone">
 								</div>
 							</div>
 							<div class="col-lg-6 col-lg-offset-1 col-md-7 col-md-offset-0 col-sm-12 col-xs-12">
@@ -409,7 +409,7 @@
 
                 <!-- <div class="col-lg-4 col-md-12 col-sm-12" data-swiper-parallax="-100">
 									<div class="slider-faqs-thumb">
-										<img class="utouch-icon" src="<?php echo get_template_directory_uri(); ?>/svg-icons/dial.svg" alt="image">
+										<img class="utouch-icon" src="<?php itcorp_img_uri( 'svg-icons/dial.svg' ); ?>" alt="image">
 									</div>
 								</div> -->
 							</div>

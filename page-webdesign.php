@@ -16,8 +16,8 @@
     'subtitle'  =>  'Top Rated Digital Services',
     'title'     =>  'Professional Web Design Services That Drive Results',
     'text'      =>  'At RIOWEX we combine professional skills, art, powerful tools and latest technologies to create incredible marketing solutions.',
-    'img'       =>  get_template_directory_uri() . '/img/iconic/webdesign-4.png',
-    // 'img'       =>  get_template_directory_uri() . '/img/real/design.jpg',
+    'img'       =>  itcorp_img_uri( 'iconic/webdesign-4.png', false ),
+    // 'img'       =>  itcorp_img_uri( 'real/design.jpg' ),
     'img-alt'   =>  'web design satisfaction guarantee'
     ] );
 ?>
@@ -81,7 +81,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-				<img src="<?php echo get_template_directory_uri(); ?>/img/iconic/webdesign-5.png" alt="custom web design">
+				<img src="<?php itcorp_img_uri( 'iconic/webdesign-5.png' ); ?>" alt="custom web design">
 			</div>
 			<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
 				<div class="crumina-module crumina-heading">
@@ -147,8 +147,8 @@
 				</div>
 			</div>
       <div class="col-lg-6 col-lg-offset-0 col-md-6 col-sm-12 col-xs-12">
-				<!-- <img src="<?php echo get_template_directory_uri(); ?>/img/product-img2.png" alt="image"> -->
-        <img src="<?php echo get_template_directory_uri(); ?>/img/gif/responsive-design.gif" alt="responsive web design">
+				<!-- <img src="<?php itcorp_img_uri( 'product-img2.png' ); ?>" alt="image"> -->
+        <img src="<?php itcorp_img_uri( 'gif/responsive-design.gif' ); ?>" alt="responsive web design">
 			</div>
 		</div>
 	</div>
@@ -170,7 +170,7 @@
 				<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
 					<div class="crumina-module crumina-info-box info-box--classic" data-mh="box--classic">
 						<div class="info-box-image">
-							<img class="utouch-icon" src="<?php echo get_template_directory_uri(); ?>/img/proccess/discover.png" alt="web design proccess - Discovery">
+							<img class="utouch-icon" src="<?php itcorp_img_uri( 'proccess/discover.png' ) ?>" alt="web design proccess - Discovery">
 						</div>
 						<div class="info-box-content">
 							<h5 class="info-box-title">1. Discovery</h5>
@@ -183,7 +183,7 @@
 				<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
 					<div class="crumina-module crumina-info-box info-box--classic" data-mh="box--classic">
 						<div class="info-box-image">
-							<img class="utouch-icon" src="<?php echo get_template_directory_uri(); ?>/img/proccess/plan.png" alt="web design proccess - plan">
+							<img class="utouch-icon" src="<?php itcorp_img_uri( 'proccess/plan.png' ); ?>" alt="web design proccess - plan">
 						</div>
 						<div class="info-box-content">
 							<h5 class="info-box-title">2. Plan</h5>
@@ -197,7 +197,7 @@
 				<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
 					<div class="crumina-module crumina-info-box info-box--classic" data-mh="box--classic">
 						<div class="info-box-image">
-							<img class="utouch-icon" src="<?php echo get_template_directory_uri(); ?>/img/proccess/design.png" alt="web design proccess - Design">
+							<img class="utouch-icon" src="<?php itcorp_img_uri( 'proccess/design.png' ); ?>" alt="web design proccess - Design">
 						</div>
 						<div class="info-box-content">
 							<h5 class="info-box-title">3. Design</h5>
@@ -211,7 +211,7 @@
 				<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
 					<div class="crumina-module crumina-info-box info-box--classic" data-mh="box--classic">
 						<div class="info-box-image">
-							<img class="utouch-icon" src="<?php echo get_template_directory_uri(); ?>/img/proccess/develope.png" alt="web design proccess - Develope">
+							<img class="utouch-icon" src="<?php itcorp_img_uri( 'proccess/develope.png' ); ?>" alt="web design proccess - Develope">
 						</div>
 						<div class="info-box-content">
 							<h5 class="info-box-title">4. Development</h5>
@@ -225,7 +225,7 @@
 				<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
 					<div class="crumina-module crumina-info-box info-box--classic" data-mh="box--classic">
 						<div class="info-box-image">
-							<img class="utouch-icon" src="<?php echo get_template_directory_uri(); ?>/img/proccess/launch.png" alt="web design proccess - Launch">
+							<img class="utouch-icon" src="<?php itcorp_img_uri( 'proccess/launch.png' ); ?>" alt="web design proccess - Launch">
 						</div>
 						<div class="info-box-content">
 							<h5 class="info-box-title">5. Lauch</h5>
@@ -239,7 +239,7 @@
 				<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
 					<div class="crumina-module crumina-info-box info-box--classic" data-mh="box--classic">
 						<div class="info-box-image">
-							<img class="utouch-icon" src="<?php echo get_template_directory_uri(); ?>/img/proccess/discover.png" alt="web design proccess - Support & Maintenance">
+							<img class="utouch-icon" src="<?php itcorp_img_uri( 'proccess/discover.png' ); ?>" alt="web design proccess - Support & Maintenance">
 						</div>
 						<div class="info-box-content">
 							<h5 class="info-box-title">6. Maintenance</h5>
@@ -511,7 +511,7 @@
       </div>
 
       <div class="col-lg-5 col-lg-offset-1 col-md-6 col-sm-12 col-xs-12">
-        <img src="<?php echo get_template_directory_uri(); ?>/img/product-img2.png" alt="image">
+        <img src="<?php itcorp_img_uri( 'product-img2.png' ); ?>" alt="image">
       </div>
     </div>
   </div>

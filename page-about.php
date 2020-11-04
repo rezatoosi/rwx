@@ -13,7 +13,7 @@
 			<div class="row">
 				<div class="crumina-module crumina-module-img-bottom">
 					<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
-						<img class="img-bottom" src="<?php echo get_template_directory_uri() ?>/img/man3.png" alt="man">
+						<img class="img-bottom" src="<?php itcorp_img_uri( 'man3.png' ); ?>" alt="man">
 					</div>
 					<div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 medium-padding100">
 						<div class="crumina-module-img-content">
@@ -28,15 +28,15 @@
 							<div class="col-lg-6 col-md-6">
 								<ul class="list list--standard">
 									<li>
-										<svg class="utouch-icon utouch-icon-correct-symbol-1"><use xlink:href="#utouch-icon-correct-symbol-1"></use></svg>
+                    <?php itcorp_svg( 'utouch-icon-correct-symbol-1' ); ?>
 										<a href="#">Gectores legere me quod</a>
 									</li>
 									<li>
-										<svg class="utouch-icon utouch-icon-correct-symbol-1"><use xlink:href="#utouch-icon-correct-symbol-1"></use></svg>
+                    <?php itcorp_svg( 'utouch-icon-correct-symbol-1' ); ?>
 										<a href="#">Mirum est notare quam</a>
 									</li>
 									<li>
-										<svg class="utouch-icon utouch-icon-correct-symbol-1"><use xlink:href="#utouch-icon-correct-symbol-1"></use></svg>
+										<?php itcorp_svg( 'utouch-icon-correct-symbol-1' ); ?>
 										<a href="#">Zril delenit augue duis</a>
 									</li>
 								</ul>
@@ -45,15 +45,15 @@
 							<div class="col-lg-6 col-md-6">
 								<ul class="list list--standard">
 									<li>
-										<svg class="utouch-icon utouch-icon-correct-symbol-1"><use xlink:href="#utouch-icon-correct-symbol-1"></use></svg>
+										<?php itcorp_svg( 'utouch-icon-correct-symbol-1' ); ?>
 										<a href="#">Zril delenit augue duis</a>
 									</li>
 									<li>
-										<svg class="utouch-icon utouch-icon-correct-symbol-1"><use xlink:href="#utouch-icon-correct-symbol-1"></use></svg>
+										<?php itcorp_svg( 'utouch-icon-correct-symbol-1' ); ?>
 										<a href="#">Gectores legere me lius quod</a>
 									</li>
 									<li>
-										<svg class="utouch-icon utouch-icon-correct-symbol-1"><use xlink:href="#utouch-icon-correct-symbol-1"></use></svg>
+										<?php itcorp_svg( 'utouch-icon-correct-symbol-1' ); ?>
 										<a href="#">Mirum est notare quam</a>
 									</li>
 								</ul>
@@ -145,7 +145,7 @@
 					<div class="crumina-module crumina-teammembers-item">
 
 						<div class="teammembers-thumb">
-							<img src="<?php echo get_template_directory_uri(); ?>/img/teammember1.png" alt="team member">
+							<img src="<?php itcorp_img_uri( 'teammember1.png' ); ?>" alt="team member">
 						</div>
 
 						<div class="teammember-content">
@@ -191,7 +191,7 @@
 					<div class="crumina-module crumina-teammembers-item">
 
 						<div class="teammembers-thumb">
-							<img src="<?php echo get_template_directory_uri(); ?>/img/teammember2.png" alt="team member">
+							<img src="<?php itcorp_img_uri( 'teammember2.png' ); ?>" alt="team member">
 						</div>
 
 						<div class="teammember-content">
@@ -237,7 +237,7 @@
 					<div class="crumina-module crumina-teammembers-item">
 
 						<div class="teammembers-thumb">
-							<img src="<?php echo get_template_directory_uri(); ?>/img/teammember3.png" alt="team member">
+							<img src="<?php itcorp_img_uri( 'teammember3.png' ); ?>" alt="team member">
 						</div>
 
 						<div class="teammember-content">
@@ -283,7 +283,7 @@
 					<div class="crumina-module crumina-teammembers-item">
 
 						<div class="teammembers-thumb">
-							<img src="<?php echo get_template_directory_uri(); ?>/img/teammember4.png" alt="team member">
+							<img src="<?php itcorp_img_uri( 'teammember4.png' ); ?>" alt="team member">
 						</div>
 
 						<div class="teammember-content">
@@ -329,7 +329,7 @@
 					<div class="crumina-module crumina-teammembers-item">
 
 						<div class="teammembers-thumb">
-							<img src="<?php echo get_template_directory_uri(); ?>/img/teammember1.png" alt="team member">
+							<img src="<?php itcorp_img_uri( 'teammember1.png' ); ?>" alt="team member">
 						</div>
 
 						<div class="teammember-content">
@@ -375,7 +375,7 @@
 					<div class="crumina-module crumina-teammembers-item">
 
 						<div class="teammembers-thumb">
-							<img src="<?php echo get_template_directory_uri(); ?>/img/teammember2.png" alt="team member">
+							<img src="<?php itcorp_img_uri( 'teammember2.png' ); ?>" alt="team member">
 						</div>
 
 						<div class="teammember-content">
@@ -421,7 +421,7 @@
 					<div class="crumina-module crumina-teammembers-item">
 
 						<div class="teammembers-thumb">
-							<img src="<?php echo get_template_directory_uri(); ?>/img/teammember3.png" alt="team member">
+							<img src="<?php itcorp_img_uri( 'teammember3.png' ); ?>" alt="team member">
 						</div>
 
 						<div class="teammember-content">
@@ -467,7 +467,7 @@
 					<div class="crumina-module crumina-teammembers-item">
 
 						<div class="teammembers-thumb">
-							<img src="<?php echo get_template_directory_uri(); ?>/img/teammember4.png" alt="team member">
+							<img src="<?php itcorp_img_uri( 'teammember4.png' ); ?>" alt="team member">
 						</div>
 
 						<div class="teammember-content">
@@ -513,7 +513,7 @@
 					<div class="crumina-module crumina-teammembers-item">
 
 						<div class="teammembers-thumb">
-							<img src="<?php echo get_template_directory_uri(); ?>/img/teammember1.png" alt="team member">
+							<img src="<?php itcorp_img_uri( 'teammember1.png' ) ?>" alt="team member">
 						</div>
 
 						<div class="teammember-content">
