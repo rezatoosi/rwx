@@ -111,7 +111,7 @@
   									</div>
 
                     <div class="main-slider-btn-wrap mt30 hidden-xxs" data-swiper-parallax="-400">
-  										<a href="/contact" class="btn btn-border btn--with-shadow c-green">
+  										<a href="/services" class="btn btn-border btn--with-shadow c-green">
   											Visit Our Services
   										</a>
   									</div>
