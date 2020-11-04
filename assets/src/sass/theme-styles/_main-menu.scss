@@ -1,0 +1,244 @@
+// Added by reza
+
+.nav-wrapper .showhide {
+  cursor: pointer;
+  margin-left: 20px;
+  text-align: center;
+  padding: 0;
+  // display: none;
+  text-decoration: none;
+  outline: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+
+  @media (max-width: 768px) {
+    margin-left: 10px;
+  }
+}
+
+.nav-wrapper .menu-icon-wrapper {
+    position: relative;
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    vertical-align: middle;
+    pointer-events: none;
+    -webkit-transition: 0.1s;
+    -o-transition: 0.1s;
+    transition: 0.1s;
+    overflow: hidden;
+
+    &.scaled {
+      transform: scale(0.5);
+      overflow: visible;
+    }
+
+    & svg {
+      position: absolute;
+      top: -33px;
+      left: -33px;
+      -webkit-transform: scale(0.1);
+      -ms-transform: scale(0.1);
+      transform: scale(0.1);
+      -webkit-transform-origin: 0 0;
+      -ms-transform-origin: 0 0;
+      transform-origin: 0 0;
+
+      & path {
+        stroke: #6987ab;
+        stroke-width: 30px;
+        stroke-linecap: round;
+        fill: transparent;
+      }
+    }
+}
+
+.main-menu-wrapper {
+  background: $white-color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  height: 0;
+  position: fixed;
+  overflow: auto;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  opacity: 0;
+  transition: height .5s ease-in-out,
+              padding .5s ease-in-out,
+              opacity 5s ease,
+              visibility 5s ease;
+
+  &.open {
+    // display: block;
+    padding: 80px 0 80px 0;
+    visibility: visible;
+    opacity: 1;
+    transition: height .35s ease-in-out,
+                padding .35s ease-in-out,
+                opacity .001s ease,
+                visibility .001s ease;
+
+
+    & .main-menu-top {
+      transform: translateY(0);
+      opacity: 1;
+      transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    }
+
+  }
+
+  & .main-menu-nav {
+    max-height: 100%;
+    overflow: hidden;
+  }
+
+  & .main-menu-top {
+    opacity: 0;
+    transform: translateY(-2000px);
+    transition: transform 0.35s ease-in-out, opacity 0.5s ease-in-out;
+  }
+
+  & ul.main-menu {
+
+    li {
+      padding: 5px 0;
+      text-align: center;
+      margin: auto;
+
+      @media (max-width: 360px) {
+        padding: 3px 0;
+      }
+
+      & a {
+        font-size: $h4-fontsize;
+        font-weight: $h-font-weight;
+        letter-spacing: 0.6vh;
+        text-transform: uppercase;
+
+        &:hover,:focus,:active {
+          color: $primary-color;
+        }
+
+        @media (max-width: 800px) {
+          font-size: 1.7em;
+        }
+
+        @media (max-width: 640px) {
+          font-size: 1.5em;
+        }
+
+        @media (max-width: 480px) {
+          font-size: 1.3em;
+        }
+
+        @media (max-width: 360px) {
+          font-size: 1.1em;
+        }
+      }
+    }
+  }
+
+  .fast-call {
+    margin-top: 20px;
+    text-align: center;
+
+    @media (max-width: 360px) {
+      margin-top: 5px;
+    }
+
+    & .btn {
+      padding: 18px 30px;
+      font-size: $h4-fontsize;
+      font-weight: $h-font-weight;
+      letter-spacing: 0.6vh;
+      text-transform: uppercase;
+
+      @media (max-width: 800px) {
+        font-size: 1.7em;
+      }
+
+      @media (max-width: 640px) {
+        font-size: 1.5em;
+      }
+
+      @media (max-width: 480px) {
+        font-size: 1.3em;
+      }
+
+      @media (max-width: 360px) {
+        font-size: 1.1em;
+        padding: 10px 12px;
+      }
+
+      & svg {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        margin-right: 5px;
+        display: none;
+      }
+
+      &:hover,:active,:focus {
+        border-color: $primary-color;
+        background-color: $primary-color;
+      }
+    }
+  }
+
+  .social-buttons {
+    position: absolute;
+    left: 0;
+    top: auto;
+    right: 0;
+    bottom: 15px;
+    text-align: center;
+    display: block;
+    width: 100%;
+
+    & ul {
+      & li {
+        display: inline-block;
+        margin-left: 5px;
+
+        &:first-child {
+          margin-left: 0;
+        }
+
+        & a {
+          background-color: $secondary-color;
+          border-radius: 50%;
+          color: $white-color;
+          display: block;
+          width: 50px;
+          height: 50px;
+          padding: 15px;
+          transition: background-color 0.3s ease;
+          overflow: hidden;
+
+          &:hover {
+            background-color: $primary-color;
+          }
+
+          & svg {
+            fill: $white-color;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {}
+@media (min-width: 992px) {}
+@media (min-width: 1200px) {}
+
+body.modal-open {
+  overflow: hidden;
+  padding-right: 15px;
+}

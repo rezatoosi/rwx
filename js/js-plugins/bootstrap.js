@@ -169,7 +169,6 @@
 	return Util;
 
 }));
-//# sourceMappingURL=util.js.map
 
 /*!
   * Bootstrap collapse.js v4.3.1 (https://getbootstrap.com/)
@@ -598,4 +597,3 @@
 	return Collapse;
 
 }));
-//# sourceMappingURL=collapse.js.map
