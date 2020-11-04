@@ -299,7 +299,7 @@
 								</a>
 
 								<a href="#" class="btn btn-market btn--with-shadow">
-									<img class="utouch-icon" src="<?php itcorp_img_svg( 'svg-icons/google-play.svg' ); ?>" alt="google">
+									<img class="utouch-icon" src="<?php itcorp_img_uri( 'svg-icons/google-play.svg' ); ?>" alt="google">
 									<div class="text">
 										<span class="sup-title">Download on the</span>
 										<span class="title">Google Play</span>
